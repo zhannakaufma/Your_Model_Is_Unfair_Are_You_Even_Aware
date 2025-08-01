@@ -1,0 +1,533 @@
+Pid,Vis_Type,cp,cp_explicit,eli5,lime,shap,forceshap,anchors,interactive,interactive_lower_bias_percep,interactive_higher_bias_percep,interactive_fair,initial_visualizations,Age,Age_Below_37,Gender,Education_Num,Education,Income_Num,Income,Race/Ethnicity_Num,Race/Ethnicity,Familiarity_Num,Familiarity,I_understand_model_decisions,I_understand_model_output,I_recommend_other_people,qualitative_model_perception,comprehension,trust,likert only trust,discriminate Age,discriminate Hours per week,discriminate Occupation,discriminate Education,discriminate Sex,discriminatory,bias operational,person,correct output,correct pushing,correct power,computers can make human decisions,this model will or shouldnt give me a loan,this model will give me a loan,this model shouldnt give me a loan,order seen
+0,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Woman/Female (Cis or Trans),3,Some college but no degree,3,"$100,000+",1,White,2,Beginner,3,2,2,7,0,13,10,0,0,0,1,0,1,1,side by side,0,0,0,1,1,0,1,6
+0,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Woman/Female (Cis or Trans),3,Some college but no degree,3,"$100,000+",1,White,2,Beginner,3,2,2,7,1,10,8,0,0,0,1,0,1,0,wom 1,0,1,0,1,0,0,0,2
+0,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Woman/Female (Cis or Trans),3,Some college but no degree,3,"$100,000+",1,White,2,Beginner,3,2,2,7,2,9,8,0,0,0,1,0,1,1,wom 2,0,1,1,0,1,1,0,4
+0,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Woman/Female (Cis or Trans),3,Some college but no degree,3,"$100,000+",1,White,2,Beginner,3,2,2,7,3,11,8,0,0,0,1,0,1,1,wom 3,1,2,0,1,1,1,1,3
+0,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Woman/Female (Cis or Trans),3,Some college but no degree,3,"$100,000+",1,White,2,Beginner,3,2,2,7,3,5,4,0,0,0,1,0,1,1,man 1,1,2,0,0,1,0,1,1
+0,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Woman/Female (Cis or Trans),3,Some college but no degree,3,"$100,000+",1,White,2,Beginner,3,2,2,7,2,11,9,0,0,0,1,0,1,1,man 2,1,1,0,0,1,1,1,0
+0,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Woman/Female (Cis or Trans),3,Some college but no degree,3,"$100,000+",1,White,2,Beginner,3,2,2,7,0,14,11,0,0,0,1,0,1,0,man 3,0,0,0,1,1,1,0,5
+1,anchors,0,0,0,0,0,0,1,0,0,0,0,1,45,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,4,2,1,7,2,2,2,1,0,0,0,1,1,4,side by side,2,0,0,0,0,0,0,6
+1,anchors,0,0,0,0,0,0,1,0,0,0,0,1,45,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,4,2,1,7,3,2,2,1,0,0,0,1,1,3,wom 1,1,1,1,0,0,0,0,4
+1,anchors,0,0,0,0,0,0,1,0,0,0,0,1,45,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,4,2,1,7,2,4,4,1,0,0,0,1,1,3,wom 2,1,0,1,0,0,0,0,1
+1,anchors,0,0,0,0,0,0,1,0,0,0,0,1,45,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,4,2,1,7,4,2,2,1,0,0,0,1,1,3,wom 3,0,4,0,0,0,0,0,5
+1,anchors,0,0,0,0,0,0,1,0,0,0,0,1,45,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,4,2,1,7,3,4,4,1,0,0,0,1,1,2,man 1,1,1,1,0,1,1,1,0
+1,anchors,0,0,0,0,0,0,1,0,0,0,0,1,45,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,4,2,1,7,5,4,4,1,0,0,0,1,1,3,man 2,1,4,0,0,0,0,0,3
+1,anchors,0,0,0,0,0,0,1,0,0,0,0,1,45,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,4,2,1,7,3,4,4,1,0,0,0,1,1,3,man 3,1,1,1,0,0,0,0,2
+2,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",3,Hispanic/Latinx,3,Intermediate,4,4,3,11,2,5,5,0,0,0,0,1,1,3,side by side,2,0,0,0,1,1,0,6
+2,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",3,Hispanic/Latinx,3,Intermediate,4,4,3,11,2,8,6,0,0,0,0,1,1,0,wom 1,1,1,0,0,1,1,1,5
+2,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",3,Hispanic/Latinx,3,Intermediate,4,4,3,11,4,10,8,0,0,0,0,1,1,0,wom 2,1,2,1,0,1,1,0,0
+2,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",3,Hispanic/Latinx,3,Intermediate,4,4,3,11,6,10,8,0,0,0,0,1,1,0,wom 3,1,4,1,0,1,0,1,1
+2,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",3,Hispanic/Latinx,3,Intermediate,4,4,3,11,3,8,6,0,0,0,0,1,1,1,man 1,1,1,1,0,1,0,1,2
+2,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",3,Hispanic/Latinx,3,Intermediate,4,4,3,11,5,10,8,0,0,0,0,1,1,0,man 2,1,3,1,1,1,1,1,4
+2,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",3,Hispanic/Latinx,3,Intermediate,4,4,3,11,5,9,6,0,0,0,0,1,1,1,man 3,1,3,1,1,1,0,1,3
+3,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",1,White,1,No familiarity,2,3,4,9,2,6,6,0,0,0,0,1,1,3,side by side,2,0,0,0,1,0,1,6
+3,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",1,White,1,No familiarity,2,3,4,9,3,5,5,0,0,0,0,1,1,3,wom 1,1,1,1,0,1,0,1,0
+3,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",1,White,1,No familiarity,2,3,4,9,3,4,4,0,0,0,0,1,1,1,wom 2,1,1,1,0,0,0,0,1
+3,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",1,White,1,No familiarity,2,3,4,9,4,5,5,0,0,0,0,1,1,1,wom 3,0,4,0,0,1,1,0,2
+3,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",1,White,1,No familiarity,2,3,4,9,4,4,4,0,0,0,0,1,1,3,man 1,1,2,1,0,1,0,1,3
+3,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",1,White,1,No familiarity,2,3,4,9,5,4,4,0,0,0,0,1,1,3,man 2,1,4,0,0,1,1,0,5
+3,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",1,White,1,No familiarity,2,3,4,9,3,4,4,0,0,0,0,1,1,3,man 3,1,1,1,0,1,1,0,4
+4,anchors,0,0,0,0,0,0,1,0,0,0,0,1,34,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,3,Intermediate,3,4,5,12,2,9,7,0,1,0,0,1,1,3,side by side,2,0,0,1,1,1,0,6
+4,anchors,0,0,0,0,0,0,1,0,0,0,0,1,34,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,3,Intermediate,3,4,5,12,6,9,6,0,1,0,0,1,1,2,wom 1,1,4,1,1,1,1,0,3
+4,anchors,0,0,0,0,0,0,1,0,0,0,0,1,34,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,3,Intermediate,3,4,5,12,5,9,6,0,1,0,0,1,1,2,wom 2,1,3,1,1,1,1,0,1
+4,anchors,0,0,0,0,0,0,1,0,0,0,0,1,34,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,3,Intermediate,3,4,5,12,7,9,6,0,1,0,0,1,1,2,wom 3,1,5,1,1,1,1,0,5
+4,anchors,0,0,0,0,0,0,1,0,0,0,0,1,34,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,3,Intermediate,3,4,5,12,4,9,6,0,1,0,0,1,1,3,man 1,1,2,1,1,1,1,0,4
+4,anchors,0,0,0,0,0,0,1,0,0,0,0,1,34,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,3,Intermediate,3,4,5,12,7,12,9,0,1,0,0,1,1,1,man 2,1,5,1,1,1,1,0,0
+4,anchors,0,0,0,0,0,0,1,0,0,0,0,1,34,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,3,Intermediate,3,4,5,12,3,8,6,0,1,0,0,1,1,2,man 3,1,1,1,1,1,1,0,2
+5,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",4,Asian,2,Beginner,3,2,2,7,2,4,4,1,0,0,0,1,1,4,side by side,2,0,0,0,1,0,1,6
+5,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",4,Asian,2,Beginner,3,2,2,7,4,4,4,1,0,0,0,1,1,3,wom 1,1,2,1,0,0,0,0,3
+5,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",4,Asian,2,Beginner,3,2,2,7,4,5,5,1,0,0,0,1,1,1,wom 2,1,2,1,0,1,1,0,0
+5,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",4,Asian,2,Beginner,3,2,2,7,3,4,4,1,0,0,0,1,1,3,wom 3,1,2,0,0,0,0,0,4
+5,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",4,Asian,2,Beginner,3,2,2,7,2,4,3,1,0,0,0,1,1,3,man 1,1,1,0,0,0,0,0,2
+5,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",4,Asian,2,Beginner,3,2,2,7,2,3,3,1,0,0,0,1,1,2,man 2,1,1,0,0,1,0,1,1
+5,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",4,Asian,2,Beginner,3,2,2,7,2,3,3,1,0,0,0,1,1,3,man 3,1,0,1,0,0,0,0,5
+6,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Prefer Not to Answer,8,"Professional degree (JD, MD, PhD)",1,"$0 - $49,999",1,White,1,No familiarity,4,4,1,9,2,2,2,0,0,0,0,1,1,4,side by side,2,0,0,0,1,1,0,6
+6,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Prefer Not to Answer,8,"Professional degree (JD, MD, PhD)",1,"$0 - $49,999",1,White,1,No familiarity,4,4,1,9,3,2,2,0,0,0,0,1,1,3,wom 1,1,1,1,0,1,1,0,4
+6,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Prefer Not to Answer,8,"Professional degree (JD, MD, PhD)",1,"$0 - $49,999",1,White,1,No familiarity,4,4,1,9,4,2,2,0,0,0,0,1,1,3,wom 2,1,2,1,0,1,1,0,3
+6,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Prefer Not to Answer,8,"Professional degree (JD, MD, PhD)",1,"$0 - $49,999",1,White,1,No familiarity,4,4,1,9,5,2,2,0,0,0,0,1,1,3,wom 3,1,4,0,0,1,1,0,2
+6,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Prefer Not to Answer,8,"Professional degree (JD, MD, PhD)",1,"$0 - $49,999",1,White,1,No familiarity,4,4,1,9,5,2,2,0,0,0,0,1,1,3,man 1,1,3,1,0,1,1,0,1
+6,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Prefer Not to Answer,8,"Professional degree (JD, MD, PhD)",1,"$0 - $49,999",1,White,1,No familiarity,4,4,1,9,5,2,2,0,0,0,0,1,1,3,man 2,1,3,1,0,1,1,0,5
+6,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Prefer Not to Answer,8,"Professional degree (JD, MD, PhD)",1,"$0 - $49,999",1,White,1,No familiarity,4,4,1,9,3,2,2,0,0,0,0,1,1,1,man 3,1,1,1,0,1,1,0,0
+7,anchors,0,0,0,0,0,0,1,0,0,0,0,1,43,0,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),1,"$0 - $49,999",1,White,1,No familiarity,2,1,1,4,2,2,2,1,0,0,0,1,1,4,side by side,2,0,0,0,0,0,0,6
+7,anchors,0,0,0,0,0,0,1,0,0,0,0,1,43,0,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),1,"$0 - $49,999",1,White,1,No familiarity,2,1,1,4,2,4,4,1,0,0,0,1,1,3,wom 1,1,0,1,0,1,0,1,0
+7,anchors,0,0,0,0,0,0,1,0,0,0,0,1,43,0,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),1,"$0 - $49,999",1,White,1,No familiarity,2,1,1,4,4,2,2,1,0,0,0,1,1,3,wom 2,1,2,1,0,0,0,0,3
+7,anchors,0,0,0,0,0,0,1,0,0,0,0,1,43,0,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),1,"$0 - $49,999",1,White,1,No familiarity,2,1,1,4,1,2,2,1,0,0,0,1,1,3,wom 3,1,0,0,0,0,0,0,5
+7,anchors,0,0,0,0,0,0,1,0,0,0,0,1,43,0,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),1,"$0 - $49,999",1,White,1,No familiarity,2,1,1,4,2,2,2,1,0,0,0,1,1,3,man 1,1,0,1,0,0,0,0,2
+7,anchors,0,0,0,0,0,0,1,0,0,0,0,1,43,0,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),1,"$0 - $49,999",1,White,1,No familiarity,2,1,1,4,1,2,2,1,0,0,0,1,1,3,man 2,1,0,0,0,0,0,0,4
+7,anchors,0,0,0,0,0,0,1,0,0,0,0,1,43,0,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),1,"$0 - $49,999",1,White,1,No familiarity,2,1,1,4,2,4,4,1,0,0,0,1,1,3,man 3,1,0,1,0,0,0,0,1
+8,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,4,3,4,11,1,11,8,1,0,0,1,0,1,1,side by side,1,0,0,1,1,1,1,6
+8,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,4,3,4,11,1,10,7,1,0,0,1,0,1,0,wom 1,0,1,0,1,1,1,1,3
+8,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,4,3,4,11,0,9,6,1,0,0,1,0,1,0,wom 2,0,0,0,1,1,1,1,0
+8,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,4,3,4,11,2,9,6,1,0,0,1,0,1,0,wom 3,1,1,0,1,1,1,1,1
+8,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,4,3,4,11,2,9,6,1,0,0,1,0,1,0,man 1,1,1,0,1,1,1,1,4
+8,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,4,3,4,11,2,9,6,1,0,0,1,0,1,0,man 2,1,1,0,1,1,1,1,5
+8,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,4,3,4,11,2,10,7,1,0,0,1,0,1,0,man 3,1,1,0,1,1,1,1,2
+9,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,1,No familiarity,2,2,2,6,2,4,4,1,0,0,0,1,1,4,side by side,2,0,0,0,0,0,0,6
+9,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,1,No familiarity,2,2,2,6,3,2,2,1,0,0,0,1,1,2,wom 1,1,1,1,0,0,0,0,1
+9,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,1,No familiarity,2,2,2,6,3,4,4,1,0,0,0,1,1,2,wom 2,1,1,1,0,1,1,0,2
+9,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,1,No familiarity,2,2,2,6,5,6,6,1,0,0,0,1,1,3,wom 3,1,3,1,0,0,0,0,5
+9,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,1,No familiarity,2,2,2,6,3,4,4,1,0,0,0,1,1,2,man 1,1,1,1,0,1,1,0,3
+9,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,1,No familiarity,2,2,2,6,3,9,6,1,0,0,0,1,1,0,man 2,1,1,1,1,1,1,0,0
+9,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,1,No familiarity,2,2,2,6,3,4,4,1,0,0,0,1,1,3,man 3,1,1,1,0,0,0,0,4
+10,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,4,3,4,11,2,4,3,1,0,0,0,0,1,4,side by side,2,0,0,0,0,0,0,6
+10,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,4,3,4,11,3,3,2,1,0,0,0,0,1,2,wom 1,1,1,1,0,0,0,0,3
+10,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,4,3,4,11,4,2,2,1,0,0,0,0,1,3,wom 2,1,2,1,0,0,0,0,4
+10,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,4,3,4,11,4,13,10,1,0,0,0,0,1,0,wom 3,1,3,0,1,1,1,0,0
+10,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,4,3,4,11,3,3,2,1,0,0,0,0,1,3,man 1,1,1,1,0,0,0,0,5
+10,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,4,3,4,11,6,12,9,1,0,0,0,0,1,0,man 2,1,4,1,1,1,1,0,2
+10,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,4,3,4,11,3,5,2,1,0,0,0,0,1,0,man 3,1,1,1,1,1,1,0,1
+11,anchors,0,0,0,0,0,0,1,0,0,0,0,1,54,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,3,3,11,2,15,12,0,0,0,0,0,0,0,side by side,2,0,0,1,1,1,1,6
+11,anchors,0,0,0,0,0,0,1,0,0,0,0,1,54,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,3,3,11,2,15,12,0,0,0,0,0,0,0,wom 1,1,1,0,1,1,1,1,5
+11,anchors,0,0,0,0,0,0,1,0,0,0,0,1,54,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,3,3,11,1,15,12,0,0,0,0,0,0,0,wom 2,0,1,0,1,1,1,1,4
+11,anchors,0,0,0,0,0,0,1,0,0,0,0,1,54,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,3,3,11,6,15,12,0,0,0,0,0,0,0,wom 3,1,4,1,1,1,1,0,2
+11,anchors,0,0,0,0,0,0,1,0,0,0,0,1,54,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,3,3,11,4,15,12,0,0,0,0,0,0,0,man 1,1,3,0,1,1,1,0,1
+11,anchors,0,0,0,0,0,0,1,0,0,0,0,1,54,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,3,3,11,4,15,12,0,0,0,0,0,0,0,man 2,1,3,0,1,1,1,0,0
+11,anchors,0,0,0,0,0,0,1,0,0,0,0,1,54,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,3,3,11,3,15,12,0,0,0,0,0,0,0,man 3,1,2,0,1,1,1,1,3
+12,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,3,3,3,9,0,10,7,1,0,0,0,1,1,2,side by side,0,0,0,1,1,1,1,6
+12,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,3,3,3,9,3,9,6,1,0,0,0,1,1,1,wom 1,1,2,0,1,1,0,1,0
+12,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,3,3,3,9,2,10,7,1,0,0,0,1,1,0,wom 2,0,1,1,1,1,1,0,4
+12,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,3,3,3,9,3,13,10,1,0,0,0,1,1,1,wom 3,1,2,0,1,1,1,0,1
+12,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,3,3,3,9,2,10,7,1,0,0,0,1,1,1,man 1,1,1,0,1,1,1,1,2
+12,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,3,3,3,9,0,9,6,1,0,0,0,1,1,1,man 2,0,0,0,1,1,1,1,3
+12,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,3,3,3,9,3,11,8,1,0,0,0,1,1,1,man 3,1,2,0,1,1,1,0,5
+13,anchors,0,0,0,0,0,0,1,0,0,0,0,1,65,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,2,2,3,7,2,2,2,0,0,0,0,1,1,4,side by side,2,0,0,0,0,0,0,6
+13,anchors,0,0,0,0,0,0,1,0,0,0,0,1,65,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,2,2,3,7,4,4,4,0,0,0,0,1,1,3,wom 1,1,3,0,0,1,1,0,3
+13,anchors,0,0,0,0,0,0,1,0,0,0,0,1,65,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,2,2,3,7,1,6,6,0,0,0,0,1,1,3,wom 2,1,0,0,0,1,1,0,0
+13,anchors,0,0,0,0,0,0,1,0,0,0,0,1,65,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,2,2,3,7,4,5,5,0,0,0,0,1,1,3,wom 3,1,3,0,0,1,1,0,1
+13,anchors,0,0,0,0,0,0,1,0,0,0,0,1,65,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,2,2,3,7,3,9,7,0,0,0,0,1,1,0,man 1,1,1,1,0,1,1,0,5
+13,anchors,0,0,0,0,0,0,1,0,0,0,0,1,65,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,2,2,3,7,5,4,4,0,0,0,0,1,1,3,man 2,1,4,0,0,1,1,0,2
+13,anchors,0,0,0,0,0,0,1,0,0,0,0,1,65,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,2,2,3,7,3,10,8,0,0,0,0,1,1,1,man 3,1,1,1,1,1,1,0,4
+14,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,4,4,2,10,2,13,10,1,0,0,0,1,1,4,side by side,2,0,0,1,1,1,0,6
+14,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,4,4,2,10,4,12,10,1,0,0,0,1,1,3,wom 1,1,2,1,1,1,1,0,4
+14,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,4,4,2,10,5,12,10,1,0,0,0,1,1,3,wom 2,1,3,1,1,1,1,0,1
+14,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,4,4,2,10,5,13,10,1,0,0,0,1,1,3,wom 3,1,3,1,1,1,1,0,2
+14,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,4,4,2,10,5,12,10,1,0,0,0,1,1,3,man 1,1,3,1,1,1,1,0,5
+14,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,4,4,2,10,6,12,10,1,0,0,0,1,1,3,man 2,1,4,1,1,1,1,0,0
+14,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,4,4,2,10,4,12,10,1,0,0,0,1,1,3,man 3,1,2,1,1,1,1,0,3
+15,anchors,0,0,0,0,0,0,1,0,0,0,0,1,21,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,3,Intermediate,4,3,5,12,2,9,7,0,0,0,0,1,1,1,side by side,2,0,0,0,1,1,1,6
+15,anchors,0,0,0,0,0,0,1,0,0,0,0,1,21,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,3,Intermediate,4,3,5,12,4,10,9,0,0,0,0,1,1,1,wom 1,1,2,1,0,1,1,0,0
+15,anchors,0,0,0,0,0,0,1,0,0,0,0,1,21,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,3,Intermediate,4,3,5,12,2,11,9,0,0,0,0,1,1,1,wom 2,1,0,1,0,1,1,0,5
+15,anchors,0,0,0,0,0,0,1,0,0,0,0,1,21,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,3,Intermediate,4,3,5,12,3,5,5,0,0,0,0,1,1,2,wom 3,1,2,0,0,1,1,1,1
+15,anchors,0,0,0,0,0,0,1,0,0,0,0,1,21,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,3,Intermediate,4,3,5,12,1,8,7,0,0,0,0,1,1,3,man 1,1,0,0,0,1,1,0,2
+15,anchors,0,0,0,0,0,0,1,0,0,0,0,1,21,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,3,Intermediate,4,3,5,12,3,10,7,0,0,0,0,1,1,2,man 2,1,2,0,1,1,1,0,3
+15,anchors,0,0,0,0,0,0,1,0,0,0,0,1,21,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,3,Intermediate,4,3,5,12,1,14,12,0,0,0,0,1,1,0,man 3,0,0,1,0,1,1,1,4
+16,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,4,Expert,6,6,6,18,1,15,12,1,1,1,1,1,1,1,side by side,1,0,0,1,1,1,1,6
+16,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,4,Expert,6,6,6,18,1,15,12,1,1,1,1,1,1,0,wom 1,0,1,0,1,1,1,1,0
+16,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,4,Expert,6,6,6,18,2,15,12,1,1,1,1,1,1,0,wom 2,0,2,0,1,1,1,1,3
+16,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,4,Expert,6,6,6,18,3,15,12,1,1,1,1,1,1,0,wom 3,1,1,1,1,1,1,1,4
+16,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,4,Expert,6,6,6,18,0,15,12,1,1,1,1,1,1,0,man 1,0,0,0,1,1,1,1,5
+16,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,4,Expert,6,6,6,18,3,15,12,1,1,1,1,1,1,0,man 2,1,1,1,1,1,1,1,2
+16,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,4,Expert,6,6,6,18,2,15,12,1,1,1,1,1,1,0,man 3,0,1,1,1,1,1,1,1
+17,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),2,"$50,000 - $99,999",1,White,1,No familiarity,4,3,2,9,2,3,2,0,0,0,1,1,1,4,side by side,2,0,0,1,0,0,0,6
+17,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),2,"$50,000 - $99,999",1,White,1,No familiarity,4,3,2,9,5,5,4,0,0,0,1,1,1,3,wom 1,1,4,0,1,0,0,0,2
+17,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),2,"$50,000 - $99,999",1,White,1,No familiarity,4,3,2,9,6,5,4,0,0,0,1,1,1,3,wom 2,1,4,1,1,0,0,0,5
+17,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),2,"$50,000 - $99,999",1,White,1,No familiarity,4,3,2,9,5,5,4,0,0,0,1,1,1,2,wom 3,1,4,0,1,0,0,0,0
+17,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),2,"$50,000 - $99,999",1,White,1,No familiarity,4,3,2,9,3,5,4,0,0,0,1,1,1,3,man 1,1,2,0,1,0,0,0,1
+17,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),2,"$50,000 - $99,999",1,White,1,No familiarity,4,3,2,9,6,5,4,0,0,0,1,1,1,3,man 2,1,4,1,1,0,0,0,4
+17,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),2,"$50,000 - $99,999",1,White,1,No familiarity,4,3,2,9,4,5,4,0,0,0,1,1,1,3,man 3,1,2,1,1,0,0,0,3
+18,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,2,3,2,7,2,4,4,0,0,0,0,1,1,4,side by side,2,0,0,0,1,0,1,6
+18,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,2,3,2,7,4,5,5,0,0,0,0,1,1,2,wom 1,1,2,1,0,1,0,1,5
+18,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,2,3,2,7,4,7,5,0,0,0,0,1,1,2,wom 2,1,2,1,0,1,1,1,2
+18,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,2,3,2,7,5,4,4,0,0,0,0,1,1,1,wom 3,1,3,1,0,1,1,1,1
+18,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,2,3,2,7,5,4,4,0,0,0,0,1,1,2,man 1,1,3,1,0,1,0,1,3
+18,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,2,3,2,7,3,7,5,0,0,0,0,1,1,0,man 2,1,1,1,0,1,0,1,4
+18,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,2,3,2,7,5,6,6,0,0,0,0,1,1,1,man 3,1,3,1,0,1,1,1,0
+19,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),3,Some college but no degree,3,"$100,000+",2,Black/African American,2,Beginner,3,3,1,7,2,2,2,0,0,0,0,1,1,3,side by side,2,0,0,0,0,0,0,6
+19,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),3,Some college but no degree,3,"$100,000+",2,Black/African American,2,Beginner,3,3,1,7,3,7,7,0,0,0,0,1,1,2,wom 1,1,1,1,0,0,0,0,5
+19,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),3,Some college but no degree,3,"$100,000+",2,Black/African American,2,Beginner,3,3,1,7,3,4,4,0,0,0,0,1,1,2,wom 2,1,1,1,0,1,1,0,1
+19,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),3,Some college but no degree,3,"$100,000+",2,Black/African American,2,Beginner,3,3,1,7,5,7,7,0,0,0,0,1,1,2,wom 3,1,3,1,0,1,1,0,3
+19,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),3,Some college but no degree,3,"$100,000+",2,Black/African American,2,Beginner,3,3,1,7,2,7,7,0,0,0,0,1,1,2,man 1,1,1,0,0,1,1,0,2
+19,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),3,Some college but no degree,3,"$100,000+",2,Black/African American,2,Beginner,3,3,1,7,6,7,7,0,0,0,0,1,1,2,man 2,1,4,1,0,1,1,0,4
+19,anchors,0,0,0,0,0,0,1,0,0,0,0,1,51,0,Woman/Female (Cis or Trans),3,Some college but no degree,3,"$100,000+",2,Black/African American,2,Beginner,3,3,1,7,3,3,3,0,0,0,0,1,1,2,man 3,1,1,1,0,1,1,0,0
+20,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,3,4,4,11,2,2,2,1,1,0,1,1,1,4,side by side,2,0,0,0,0,0,0,6
+20,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,3,4,4,11,4,2,2,1,1,0,1,1,1,3,wom 1,1,2,1,0,0,0,0,3
+20,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,3,4,4,11,5,2,2,1,1,0,1,1,1,3,wom 2,1,3,1,0,0,0,0,1
+20,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,3,4,4,11,6,2,2,1,1,0,1,1,1,3,wom 3,1,4,1,0,0,0,0,5
+20,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,3,4,4,11,6,2,2,1,1,0,1,1,1,3,man 1,1,4,1,0,0,0,0,2
+20,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,3,4,4,11,6,2,2,1,1,0,1,1,1,3,man 2,1,4,1,0,0,0,0,4
+20,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,3,4,4,11,4,2,2,1,1,0,1,1,1,3,man 3,1,2,1,0,0,0,0,0
+21,anchors,0,0,0,0,0,0,1,0,0,0,0,1,22,1,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",3,Hispanic/Latinx,2,Beginner,4,4,5,13,1,4,4,1,0,0,1,1,1,4,side by side,1,0,0,0,1,0,1,6
+21,anchors,0,0,0,0,0,0,1,0,0,0,0,1,22,1,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",3,Hispanic/Latinx,2,Beginner,4,4,5,13,2,2,2,1,0,0,1,1,1,3,wom 1,1,0,1,0,1,0,1,3
+21,anchors,0,0,0,0,0,0,1,0,0,0,0,1,22,1,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",3,Hispanic/Latinx,2,Beginner,4,4,5,13,3,5,5,1,0,0,1,1,1,2,wom 2,1,1,1,0,1,0,1,1
+21,anchors,0,0,0,0,0,0,1,0,0,0,0,1,22,1,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",3,Hispanic/Latinx,2,Beginner,4,4,5,13,2,10,7,1,0,0,1,1,1,0,wom 3,1,0,1,1,1,0,1,4
+21,anchors,0,0,0,0,0,0,1,0,0,0,0,1,22,1,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",3,Hispanic/Latinx,2,Beginner,4,4,5,13,2,5,5,1,0,0,1,1,1,2,man 1,1,0,1,0,1,0,1,2
+21,anchors,0,0,0,0,0,0,1,0,0,0,0,1,22,1,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",3,Hispanic/Latinx,2,Beginner,4,4,5,13,6,10,8,1,0,0,1,1,1,1,man 2,1,4,1,0,0,0,0,0
+21,anchors,0,0,0,0,0,0,1,0,0,0,0,1,22,1,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",3,Hispanic/Latinx,2,Beginner,4,4,5,13,2,2,2,1,0,0,1,1,1,3,man 3,1,0,1,0,1,0,1,5
+22,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",3,Hispanic/Latinx,1,No familiarity,2,2,2,6,2,2,2,0,0,0,0,1,1,4,side by side,2,0,0,0,0,0,0,6
+22,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",3,Hispanic/Latinx,1,No familiarity,2,2,2,6,3,4,4,0,0,0,0,1,1,3,wom 1,1,1,1,0,1,0,1,3
+22,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",3,Hispanic/Latinx,1,No familiarity,2,2,2,6,5,4,4,0,0,0,0,1,1,2,wom 2,1,3,1,0,0,0,0,0
+22,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",3,Hispanic/Latinx,1,No familiarity,2,2,2,6,2,2,2,0,0,0,0,1,1,2,wom 3,1,0,1,0,0,0,0,1
+22,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",3,Hispanic/Latinx,1,No familiarity,2,2,2,6,3,9,6,0,0,0,0,1,1,1,man 1,1,1,1,1,1,1,1,4
+22,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",3,Hispanic/Latinx,1,No familiarity,2,2,2,6,3,4,4,0,0,0,0,1,1,3,man 2,1,1,1,0,1,0,1,5
+22,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",3,Hispanic/Latinx,1,No familiarity,2,2,2,6,3,4,4,0,0,0,0,1,1,3,man 3,1,1,1,0,1,0,1,2
+23,anchors,0,0,0,0,0,0,1,0,0,0,0,1,32,1,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,5,6,6,17,2,9,8,1,0,0,0,1,1,1,side by side,2,0,0,0,1,1,0,6
+23,anchors,0,0,0,0,0,0,1,0,0,0,0,1,32,1,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,5,6,6,17,4,9,8,1,0,0,0,1,1,2,wom 1,1,2,1,0,1,1,0,1
+23,anchors,0,0,0,0,0,0,1,0,0,0,0,1,32,1,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,5,6,6,17,5,7,7,1,0,0,0,1,1,2,wom 2,1,3,1,0,1,1,0,3
+23,anchors,0,0,0,0,0,0,1,0,0,0,0,1,32,1,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,5,6,6,17,6,8,8,1,0,0,0,1,1,1,wom 3,1,4,1,0,1,1,0,5
+23,anchors,0,0,0,0,0,0,1,0,0,0,0,1,32,1,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,5,6,6,17,6,6,6,1,0,0,0,1,1,2,man 1,1,4,1,0,1,1,0,2
+23,anchors,0,0,0,0,0,0,1,0,0,0,0,1,32,1,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,5,6,6,17,6,11,9,1,0,0,0,1,1,0,man 2,1,4,1,0,1,1,0,0
+23,anchors,0,0,0,0,0,0,1,0,0,0,0,1,32,1,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,5,6,6,17,6,8,8,1,0,0,0,1,1,2,man 3,1,4,1,0,1,1,0,4
+24,anchors,0,0,0,0,0,0,1,0,0,0,0,1,66,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,3,3,4,10,2,2,2,0,0,0,0,1,1,4,side by side,2,0,0,0,0,0,0,6
+24,anchors,0,0,0,0,0,0,1,0,0,0,0,1,66,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,3,3,4,10,6,4,4,0,0,0,0,1,1,2,wom 1,1,4,1,0,0,0,0,2
+24,anchors,0,0,0,0,0,0,1,0,0,0,0,1,66,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,3,3,4,10,4,5,4,0,0,0,0,1,1,3,wom 2,1,2,1,0,0,0,0,5
+24,anchors,0,0,0,0,0,0,1,0,0,0,0,1,66,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,3,3,4,10,6,7,5,0,0,0,0,1,1,0,wom 3,1,4,1,0,0,0,0,4
+24,anchors,0,0,0,0,0,0,1,0,0,0,0,1,66,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,3,3,4,10,3,8,7,0,0,0,0,1,1,2,man 1,1,1,1,0,0,0,0,0
+24,anchors,0,0,0,0,0,0,1,0,0,0,0,1,66,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,3,3,4,10,5,10,7,0,0,0,0,1,1,0,man 2,1,4,0,1,0,0,0,1
+24,anchors,0,0,0,0,0,0,1,0,0,0,0,1,66,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,3,3,4,10,4,2,2,0,0,0,0,1,1,3,man 3,1,2,1,0,0,0,0,3
+25,anchors,0,0,0,0,0,0,1,0,0,0,0,1,40,0,Man/Male (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",1,White,3,Intermediate,5,5,2,12,2,4,4,0,0,0,0,1,1,4,side by side,2,0,0,0,0,0,0,6
+25,anchors,0,0,0,0,0,0,1,0,0,0,0,1,40,0,Man/Male (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",1,White,3,Intermediate,5,5,2,12,3,2,2,0,0,0,0,1,1,3,wom 1,1,1,1,0,0,0,0,5
+25,anchors,0,0,0,0,0,0,1,0,0,0,0,1,40,0,Man/Male (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",1,White,3,Intermediate,5,5,2,12,3,4,4,0,0,0,0,1,1,2,wom 2,1,1,1,0,0,0,0,3
+25,anchors,0,0,0,0,0,0,1,0,0,0,0,1,40,0,Man/Male (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",1,White,3,Intermediate,5,5,2,12,5,11,8,0,0,0,0,1,1,0,wom 3,1,3,1,1,1,0,1,4
+25,anchors,0,0,0,0,0,0,1,0,0,0,0,1,40,0,Man/Male (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",1,White,3,Intermediate,5,5,2,12,3,4,4,0,0,0,0,1,1,2,man 1,1,1,1,0,0,0,0,2
+25,anchors,0,0,0,0,0,0,1,0,0,0,0,1,40,0,Man/Male (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",1,White,3,Intermediate,5,5,2,12,6,13,10,0,0,0,0,1,1,0,man 2,1,4,1,1,1,0,1,1
+25,anchors,0,0,0,0,0,0,1,0,0,0,0,1,40,0,Man/Male (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",1,White,3,Intermediate,5,5,2,12,3,11,8,0,0,0,0,1,1,0,man 3,1,1,1,1,1,0,1,0
+26,anchors,0,0,0,0,0,0,1,0,0,0,0,1,47,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,3,Intermediate,3,3,1,7,2,4,4,1,0,0,1,1,1,4,side by side,2,0,0,0,0,0,0,6
+26,anchors,0,0,0,0,0,0,1,0,0,0,0,1,47,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,3,Intermediate,3,3,1,7,3,5,5,1,0,0,1,1,1,3,wom 1,1,1,1,0,1,1,0,4
+26,anchors,0,0,0,0,0,0,1,0,0,0,0,1,47,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,3,Intermediate,3,3,1,7,4,6,6,1,0,0,1,1,1,2,wom 2,1,2,1,0,1,1,0,2
+26,anchors,0,0,0,0,0,0,1,0,0,0,0,1,47,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,3,Intermediate,3,3,1,7,6,4,4,1,0,0,1,1,1,2,wom 3,1,4,1,0,0,0,0,3
+26,anchors,0,0,0,0,0,0,1,0,0,0,0,1,47,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,3,Intermediate,3,3,1,7,4,6,6,1,0,0,1,1,1,3,man 1,1,2,1,0,1,1,0,5
+26,anchors,0,0,0,0,0,0,1,0,0,0,0,1,47,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,3,Intermediate,3,3,1,7,6,6,6,1,0,0,1,1,1,2,man 2,1,4,1,0,0,0,0,0
+26,anchors,0,0,0,0,0,0,1,0,0,0,0,1,47,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,3,Intermediate,3,3,1,7,3,6,6,1,0,0,1,1,1,2,man 3,1,1,1,0,1,1,0,1
+27,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,4,Expert,5,5,5,15,2,14,11,1,0,0,0,0,1,1,side by side,2,0,0,1,1,1,0,6
+27,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,4,Expert,5,5,5,15,1,13,10,1,0,0,0,0,1,1,wom 1,0,1,0,1,1,1,0,3
+27,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,4,Expert,5,5,5,15,1,13,10,1,0,0,0,0,1,0,wom 2,0,1,0,1,1,1,0,4
+27,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,4,Expert,5,5,5,15,3,14,11,1,0,0,0,0,1,1,wom 3,1,2,0,1,1,1,0,0
+27,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,4,Expert,5,5,5,15,1,13,10,1,0,0,0,0,1,0,man 1,0,1,0,1,1,1,0,2
+27,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,4,Expert,5,5,5,15,3,13,10,1,0,0,0,0,1,0,man 2,1,1,1,1,1,1,0,5
+27,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,4,Expert,5,5,5,15,0,13,10,1,0,0,0,0,1,1,man 3,0,0,0,1,1,1,0,1
+28,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,3,Intermediate,2,4,4,10,0,11,8,0,0,0,0,0,0,0,side by side,0,0,0,1,1,1,1,6
+28,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,3,Intermediate,2,4,4,10,1,13,10,0,0,0,0,0,0,1,wom 1,0,1,0,1,1,1,1,5
+28,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,3,Intermediate,2,4,4,10,3,11,8,0,0,0,0,0,0,0,wom 2,1,1,1,1,1,1,0,0
+28,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,3,Intermediate,2,4,4,10,5,10,7,0,0,0,0,0,0,0,wom 3,1,3,1,1,1,1,1,1
+28,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,3,Intermediate,2,4,4,10,1,8,6,0,0,0,0,0,0,0,man 1,0,1,0,1,1,1,1,4
+28,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,3,Intermediate,2,4,4,10,3,10,7,0,0,0,0,0,0,0,man 2,0,3,0,1,1,1,1,2
+28,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,3,Intermediate,2,4,4,10,2,8,5,0,0,0,0,0,0,0,man 3,1,1,0,1,1,1,1,3
+29,anchors,0,0,0,0,0,0,1,0,0,0,0,1,68,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,3,Intermediate,5,5,4,14,2,7,6,1,0,0,0,1,1,3,side by side,2,0,0,1,1,1,1,6
+29,anchors,0,0,0,0,0,0,1,0,0,0,0,1,68,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,3,Intermediate,5,5,4,14,3,2,2,1,0,0,0,1,1,2,wom 1,1,1,1,0,0,0,0,3
+29,anchors,0,0,0,0,0,0,1,0,0,0,0,1,68,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,3,Intermediate,5,5,4,14,5,14,11,1,0,0,0,1,1,0,wom 2,1,3,1,1,1,0,1,2
+29,anchors,0,0,0,0,0,0,1,0,0,0,0,1,68,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,3,Intermediate,5,5,4,14,6,11,8,1,0,0,0,1,1,0,wom 3,1,4,1,1,1,0,1,5
+29,anchors,0,0,0,0,0,0,1,0,0,0,0,1,68,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,3,Intermediate,5,5,4,14,5,13,10,1,0,0,0,1,1,0,man 1,1,4,0,1,1,1,1,1
+29,anchors,0,0,0,0,0,0,1,0,0,0,0,1,68,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,3,Intermediate,5,5,4,14,5,12,9,1,0,0,0,1,1,0,man 2,1,4,0,1,1,0,1,0
+29,anchors,0,0,0,0,0,0,1,0,0,0,0,1,68,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,3,Intermediate,5,5,4,14,4,10,7,1,0,0,0,1,1,0,man 3,1,3,0,1,1,1,0,4
+30,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,2,Beginner,5,5,3,13,2,4,4,1,0,0,0,1,1,4,side by side,2,0,0,0,0,0,0,6
+30,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,2,Beginner,5,5,3,13,4,2,2,1,0,0,0,1,1,3,wom 1,1,2,1,0,0,0,0,1
+30,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,2,Beginner,5,5,3,13,3,4,4,1,0,0,0,1,1,3,wom 2,1,1,1,0,0,0,0,0
+30,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,2,Beginner,5,5,3,13,5,4,4,1,0,0,0,1,1,3,wom 3,1,3,1,0,0,0,0,4
+30,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,2,Beginner,5,5,3,13,3,4,4,1,0,0,0,1,1,3,man 1,1,1,1,0,1,1,0,5
+30,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,2,Beginner,5,5,3,13,5,4,4,1,0,0,0,1,1,3,man 2,1,4,0,0,0,0,0,3
+30,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,2,Beginner,5,5,3,13,3,4,4,1,0,0,0,1,1,3,man 3,1,1,1,0,1,1,0,2
+31,anchors,0,0,0,0,0,0,1,0,0,0,0,1,47,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,1,No familiarity,2,2,1,5,2,4,4,1,0,0,0,1,1,4,side by side,2,0,0,0,0,0,0,6
+31,anchors,0,0,0,0,0,0,1,0,0,0,0,1,47,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,1,No familiarity,2,2,1,5,2,4,4,1,0,0,0,1,1,2,wom 1,1,0,1,0,0,0,0,3
+31,anchors,0,0,0,0,0,0,1,0,0,0,0,1,47,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,1,No familiarity,2,2,1,5,2,4,4,1,0,0,0,1,1,2,wom 2,1,0,1,0,1,1,0,1
+31,anchors,0,0,0,0,0,0,1,0,0,0,0,1,47,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,1,No familiarity,2,2,1,5,4,4,4,1,0,0,0,1,1,3,wom 3,1,3,0,0,1,1,0,0
+31,anchors,0,0,0,0,0,0,1,0,0,0,0,1,47,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,1,No familiarity,2,2,1,5,2,4,4,1,0,0,0,1,1,2,man 1,1,0,1,0,1,1,0,4
+31,anchors,0,0,0,0,0,0,1,0,0,0,0,1,47,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,1,No familiarity,2,2,1,5,4,4,4,1,0,0,0,1,1,2,man 2,1,3,0,0,0,0,0,2
+31,anchors,0,0,0,0,0,0,1,0,0,0,0,1,47,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,1,No familiarity,2,2,1,5,2,4,4,1,0,0,0,1,1,3,man 3,0,1,1,0,1,1,0,5
+32,anchors,0,0,0,0,0,0,1,0,0,0,0,1,66,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,3,Intermediate,5,5,6,16,2,13,10,0,0,0,0,0,0,0,side by side,2,0,0,1,1,0,1,6
+32,anchors,0,0,0,0,0,0,1,0,0,0,0,1,66,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,3,Intermediate,5,5,6,16,5,7,4,0,0,0,0,0,0,0,wom 1,1,3,1,1,1,0,1,4
+32,anchors,0,0,0,0,0,0,1,0,0,0,0,1,66,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,3,Intermediate,5,5,6,16,4,5,2,0,0,0,0,0,0,0,wom 2,1,2,1,1,1,0,1,5
+32,anchors,0,0,0,0,0,0,1,0,0,0,0,1,66,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,3,Intermediate,5,5,6,16,6,13,10,0,0,0,0,0,0,0,wom 3,1,4,1,1,1,1,0,3
+32,anchors,0,0,0,0,0,0,1,0,0,0,0,1,66,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,3,Intermediate,5,5,6,16,4,13,10,0,0,0,0,0,0,0,man 1,0,3,1,1,1,1,0,1
+32,anchors,0,0,0,0,0,0,1,0,0,0,0,1,66,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,3,Intermediate,5,5,6,16,7,11,8,0,0,0,0,0,0,0,man 2,1,5,1,1,1,1,0,2
+32,anchors,0,0,0,0,0,0,1,0,0,0,0,1,66,0,Woman/Female (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,3,Intermediate,5,5,6,16,4,13,10,0,0,0,0,0,0,0,man 3,0,3,1,1,1,1,0,0
+33,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,4,4,4,12,0,11,8,0,0,0,0,0,0,0,side by side,0,0,0,1,1,1,0,6
+33,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,4,4,4,12,1,9,6,0,0,0,0,0,0,0,wom 1,1,0,0,1,1,1,0,5
+33,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,4,4,4,12,1,9,6,0,0,0,0,0,0,0,wom 2,1,0,0,1,1,1,0,2
+33,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,4,4,4,12,1,13,10,0,0,0,0,0,0,0,wom 3,1,0,0,1,1,1,0,4
+33,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,4,4,4,12,3,9,6,0,0,0,0,0,0,0,man 1,1,2,0,1,1,1,0,1
+33,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,4,4,4,12,4,11,8,0,0,0,0,0,0,0,man 2,1,3,0,1,1,1,0,0
+33,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,4,4,4,12,3,9,6,0,0,0,0,0,0,0,man 3,1,2,0,1,1,1,0,3
+34,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,2,2,2,0,0,0,0,1,1,4,side by side,2,0,0,0,0,0,0,6
+34,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,3,2,2,0,0,0,0,1,1,3,wom 1,1,1,1,0,0,0,0,1
+34,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,2,4,4,0,0,0,0,1,1,3,wom 2,1,0,1,0,0,0,0,3
+34,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,6,7,5,0,0,0,0,1,1,3,wom 3,1,4,1,0,1,1,0,5
+34,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,3,4,4,0,0,0,0,1,1,3,man 1,1,1,1,0,1,1,0,4
+34,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,6,7,5,0,0,0,0,1,1,3,man 2,1,4,1,0,0,0,0,2
+34,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,3,4,4,0,0,0,0,1,1,3,man 3,1,1,1,0,1,1,0,0
+35,anchors,0,0,0,0,0,0,1,0,0,0,0,1,23,1,Man/Male (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),1,"$0 - $49,999",1,White,1,No familiarity,2,2,3,7,2,4,4,0,0,0,0,1,1,2,side by side,2,0,0,0,0,0,0,6
+35,anchors,0,0,0,0,0,0,1,0,0,0,0,1,23,1,Man/Male (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),1,"$0 - $49,999",1,White,1,No familiarity,2,2,3,7,3,8,8,0,0,0,0,1,1,2,wom 1,1,1,1,0,1,1,0,5
+35,anchors,0,0,0,0,0,0,1,0,0,0,0,1,23,1,Man/Male (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),1,"$0 - $49,999",1,White,1,No familiarity,2,2,3,7,3,4,4,0,0,0,0,1,1,3,wom 2,1,1,1,0,1,0,1,1
+35,anchors,0,0,0,0,0,0,1,0,0,0,0,1,23,1,Man/Male (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),1,"$0 - $49,999",1,White,1,No familiarity,2,2,3,7,5,11,8,0,0,0,0,1,1,0,wom 3,1,3,1,1,1,1,0,2
+35,anchors,0,0,0,0,0,0,1,0,0,0,0,1,23,1,Man/Male (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),1,"$0 - $49,999",1,White,1,No familiarity,2,2,3,7,3,9,6,0,0,0,0,1,1,1,man 1,1,1,1,1,1,1,0,4
+35,anchors,0,0,0,0,0,0,1,0,0,0,0,1,23,1,Man/Male (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),1,"$0 - $49,999",1,White,1,No familiarity,2,2,3,7,6,12,9,0,0,0,0,1,1,0,man 2,1,4,1,1,1,1,0,0
+35,anchors,0,0,0,0,0,0,1,0,0,0,0,1,23,1,Man/Male (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),1,"$0 - $49,999",1,White,1,No familiarity,2,2,3,7,3,9,6,0,0,0,0,1,1,1,man 3,1,1,1,1,1,1,0,3
+36,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),3,"$100,000+",1,White,2,Beginner,4,2,2,8,1,9,6,0,0,0,0,1,1,1,side by side,1,0,0,1,1,1,1,6
+36,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),3,"$100,000+",1,White,2,Beginner,4,2,2,8,0,9,6,0,0,0,0,1,1,0,wom 1,0,0,0,1,1,1,1,3
+36,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),3,"$100,000+",1,White,2,Beginner,4,2,2,8,2,10,7,0,0,0,0,1,1,0,wom 2,0,2,0,1,1,1,0,1
+36,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),3,"$100,000+",1,White,2,Beginner,4,2,2,8,6,12,9,0,0,0,0,1,1,0,wom 3,1,4,1,1,1,1,1,2
+36,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),3,"$100,000+",1,White,2,Beginner,4,2,2,8,1,9,6,0,0,0,0,1,1,0,man 1,0,1,0,1,1,1,1,4
+36,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),3,"$100,000+",1,White,2,Beginner,4,2,2,8,1,7,6,0,0,0,0,1,1,3,man 2,0,1,0,1,1,1,1,0
+36,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),3,"$100,000+",1,White,2,Beginner,4,2,2,8,0,9,6,0,0,0,0,1,1,0,man 3,0,0,0,1,1,1,1,5
+37,anchors,0,0,0,0,0,0,1,0,0,0,0,1,38,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,6,4,6,16,1,12,9,0,0,0,0,0,0,0,side by side,1,0,0,1,1,1,0,6
+37,anchors,0,0,0,0,0,0,1,0,0,0,0,1,38,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,6,4,6,16,0,12,9,0,0,0,0,0,0,0,wom 1,0,0,0,1,1,1,1,5
+37,anchors,0,0,0,0,0,0,1,0,0,0,0,1,38,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,6,4,6,16,2,8,5,0,0,0,0,0,0,0,wom 2,1,1,0,1,1,1,1,3
+37,anchors,0,0,0,0,0,0,1,0,0,0,0,1,38,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,6,4,6,16,1,10,7,0,0,0,0,0,0,1,wom 3,1,0,0,1,1,1,1,4
+37,anchors,0,0,0,0,0,0,1,0,0,0,0,1,38,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,6,4,6,16,1,12,9,0,0,0,0,0,0,0,man 1,0,0,1,1,1,1,0,0
+37,anchors,0,0,0,0,0,0,1,0,0,0,0,1,38,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,6,4,6,16,3,14,11,0,0,0,0,0,0,0,man 2,1,1,1,1,1,1,1,2
+37,anchors,0,0,0,0,0,0,1,0,0,0,0,1,38,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,6,4,6,16,3,10,7,0,0,0,0,0,0,0,man 3,1,2,0,1,1,1,1,1
+38,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,5,6,5,16,0,13,10,0,1,0,0,0,1,1,side by side,0,0,0,1,1,1,1,6
+38,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,5,6,5,16,1,9,8,0,1,0,0,0,1,2,wom 1,1,0,0,0,1,1,0,3
+38,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,5,6,5,16,2,14,11,0,1,0,0,0,1,0,wom 2,0,2,0,1,1,1,1,5
+38,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,5,6,5,16,3,14,11,0,1,0,0,0,1,0,wom 3,1,1,1,1,1,1,1,0
+38,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,5,6,5,16,0,12,10,0,1,0,0,0,1,1,man 1,0,0,0,1,1,1,1,4
+38,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,5,6,5,16,3,12,9,0,1,0,0,0,1,0,man 2,1,1,1,1,1,1,1,2
+38,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,5,6,5,16,3,13,10,0,1,0,0,0,1,1,man 3,1,2,0,1,1,1,1,1
+39,anchors,0,0,0,0,0,0,1,0,0,0,0,1,39,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,2,6,4,12,2,2,2,0,0,0,0,1,1,4,side by side,2,0,0,0,0,0,0,6
+39,anchors,0,0,0,0,0,0,1,0,0,0,0,1,39,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,2,6,4,12,6,3,2,0,0,0,0,1,1,3,wom 1,1,4,1,1,0,0,0,0
+39,anchors,0,0,0,0,0,0,1,0,0,0,0,1,39,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,2,6,4,12,6,3,2,0,0,0,0,1,1,3,wom 2,1,4,1,1,0,0,0,3
+39,anchors,0,0,0,0,0,0,1,0,0,0,0,1,39,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,2,6,4,12,5,4,3,0,0,0,0,1,1,3,wom 3,1,3,1,1,0,0,0,5
+39,anchors,0,0,0,0,0,0,1,0,0,0,0,1,39,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,2,6,4,12,5,5,4,0,0,0,0,1,1,3,man 1,1,3,1,1,1,1,0,2
+39,anchors,0,0,0,0,0,0,1,0,0,0,0,1,39,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,2,6,4,12,6,5,4,0,0,0,0,1,1,3,man 2,1,4,1,1,0,0,0,4
+39,anchors,0,0,0,0,0,0,1,0,0,0,0,1,39,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,1,No familiarity,2,6,4,12,3,5,4,0,0,0,0,1,1,3,man 3,1,1,1,1,1,1,0,1
+40,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,4,4,3,11,2,8,6,0,0,0,1,1,1,3,side by side,2,0,0,0,1,0,1,6
+40,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,4,4,3,11,4,8,6,0,0,0,1,1,1,2,wom 1,1,2,1,0,1,0,1,2
+40,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,4,4,3,11,3,8,6,0,0,0,1,1,1,2,wom 2,1,1,1,0,1,0,1,4
+40,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,4,4,3,11,6,9,7,0,0,0,1,1,1,2,wom 3,1,4,1,0,1,0,1,0
+40,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,4,4,3,11,4,8,6,0,0,0,1,1,1,2,man 1,1,2,1,0,1,0,1,1
+40,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,4,4,3,11,6,8,6,0,0,0,1,1,1,2,man 2,1,4,1,0,1,0,1,5
+40,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,4,4,3,11,3,8,6,0,0,0,1,1,1,2,man 3,1,1,1,0,1,0,1,3
+41,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,2,Beginner,4,3,3,10,2,2,2,0,0,0,0,1,1,4,side by side,2,0,0,0,0,0,0,6
+41,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,2,Beginner,4,3,3,10,3,2,2,0,0,0,0,1,1,3,wom 1,1,1,1,0,0,0,0,4
+41,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,2,Beginner,4,3,3,10,4,9,8,0,0,0,0,1,1,1,wom 2,1,3,0,0,1,1,0,1
+41,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,2,Beginner,4,3,3,10,3,7,6,0,0,0,0,1,1,1,wom 3,1,2,0,0,0,0,0,2
+41,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,2,Beginner,4,3,3,10,3,2,2,0,0,0,0,1,1,3,man 1,1,1,1,0,0,0,0,5
+41,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,2,Beginner,4,3,3,10,1,7,7,0,0,0,0,1,1,1,man 2,1,0,0,0,0,0,0,0
+41,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Woman/Female (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,2,Beginner,4,3,3,10,3,14,12,0,0,0,0,1,1,1,man 3,1,1,1,0,1,1,1,3
+42,anchors,0,0,0,0,0,0,1,0,0,0,0,1,46,0,Man/Male (Cis or Trans),3,Some college but no degree,3,"$100,000+",1,White,2,Beginner,2,2,1,5,2,5,4,0,0,0,0,1,1,4,side by side,2,0,0,1,1,0,1,6
+42,anchors,0,0,0,0,0,0,1,0,0,0,0,1,46,0,Man/Male (Cis or Trans),3,Some college but no degree,3,"$100,000+",1,White,2,Beginner,2,2,1,5,3,7,6,0,0,0,0,1,1,1,wom 1,1,2,0,1,1,1,1,4
+42,anchors,0,0,0,0,0,0,1,0,0,0,0,1,46,0,Man/Male (Cis or Trans),3,Some college but no degree,3,"$100,000+",1,White,2,Beginner,2,2,1,5,4,9,6,0,0,0,0,1,1,2,wom 2,1,2,1,1,1,0,1,5
+42,anchors,0,0,0,0,0,0,1,0,0,0,0,1,46,0,Man/Male (Cis or Trans),3,Some college but no degree,3,"$100,000+",1,White,2,Beginner,2,2,1,5,5,11,8,0,0,0,0,1,1,2,wom 3,1,3,1,1,1,0,1,3
+42,anchors,0,0,0,0,0,0,1,0,0,0,0,1,46,0,Man/Male (Cis or Trans),3,Some college but no degree,3,"$100,000+",1,White,2,Beginner,2,2,1,5,5,9,7,0,0,0,0,1,1,2,man 1,1,3,1,1,1,1,0,2
+42,anchors,0,0,0,0,0,0,1,0,0,0,0,1,46,0,Man/Male (Cis or Trans),3,Some college but no degree,3,"$100,000+",1,White,2,Beginner,2,2,1,5,6,11,8,0,0,0,0,1,1,1,man 2,1,4,1,1,1,0,1,1
+42,anchors,0,0,0,0,0,0,1,0,0,0,0,1,46,0,Man/Male (Cis or Trans),3,Some college but no degree,3,"$100,000+",1,White,2,Beginner,2,2,1,5,4,8,6,0,0,0,0,1,1,3,man 3,1,2,1,1,1,1,0,0
+43,anchors,0,0,0,0,0,0,1,0,0,0,0,1,22,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,2,Beginner,2,2,5,9,2,10,8,0,0,0,0,1,1,3,side by side,2,0,0,0,0,0,0,6
+43,anchors,0,0,0,0,0,0,1,0,0,0,0,1,22,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,2,Beginner,2,2,5,9,3,9,8,0,0,0,0,1,1,3,wom 1,1,1,1,0,0,0,0,5
+43,anchors,0,0,0,0,0,0,1,0,0,0,0,1,22,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,2,Beginner,2,2,5,9,2,13,10,0,0,0,0,1,1,1,wom 2,1,1,0,1,1,0,1,3
+43,anchors,0,0,0,0,0,0,1,0,0,0,0,1,22,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,2,Beginner,2,2,5,9,5,13,10,0,0,0,0,1,1,2,wom 3,1,4,0,1,1,1,1,2
+43,anchors,0,0,0,0,0,0,1,0,0,0,0,1,22,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,2,Beginner,2,2,5,9,3,11,8,0,0,0,0,1,1,2,man 1,1,1,1,1,1,0,1,4
+43,anchors,0,0,0,0,0,0,1,0,0,0,0,1,22,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,2,Beginner,2,2,5,9,5,11,10,0,0,0,0,1,1,2,man 2,1,4,0,0,1,1,1,1
+43,anchors,0,0,0,0,0,0,1,0,0,0,0,1,22,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,2,Beginner,2,2,5,9,3,10,10,0,0,0,0,1,1,2,man 3,1,1,1,0,0,0,0,0
+44,anchors,0,0,0,0,0,0,1,0,0,0,0,1,41,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,3,2,3,8,2,9,6,0,0,0,0,1,1,3,side by side,2,0,0,1,1,0,1,6
+44,anchors,0,0,0,0,0,0,1,0,0,0,0,1,41,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,3,2,3,8,1,15,12,0,0,0,0,1,1,1,wom 1,0,1,0,1,1,0,1,2
+44,anchors,0,0,0,0,0,0,1,0,0,0,0,1,41,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,3,2,3,8,4,15,12,0,0,0,0,1,1,1,wom 2,1,2,1,1,1,0,1,1
+44,anchors,0,0,0,0,0,0,1,0,0,0,0,1,41,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,3,2,3,8,5,15,12,0,0,0,0,1,1,1,wom 3,1,4,0,1,1,0,1,3
+44,anchors,0,0,0,0,0,0,1,0,0,0,0,1,41,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,3,2,3,8,3,15,12,0,0,0,0,1,1,2,man 1,1,1,1,1,1,0,1,0
+44,anchors,0,0,0,0,0,0,1,0,0,0,0,1,41,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,3,2,3,8,5,15,12,0,0,0,0,1,1,1,man 2,1,3,1,1,1,0,1,5
+44,anchors,0,0,0,0,0,0,1,0,0,0,0,1,41,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,1,No familiarity,3,2,3,8,3,15,12,0,0,0,0,1,1,1,man 3,1,2,0,1,1,0,1,4
+45,anchors,0,0,0,0,0,0,1,0,0,0,0,1,36,1,Man/Male (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",3,Hispanic/Latinx,2,Beginner,4,4,2,10,2,2,2,0,0,0,0,1,1,4,side by side,2,0,0,0,0,0,0,6
+45,anchors,0,0,0,0,0,0,1,0,0,0,0,1,36,1,Man/Male (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",3,Hispanic/Latinx,2,Beginner,4,4,2,10,4,3,3,0,0,0,0,1,1,3,wom 1,1,2,1,0,1,1,0,4
+45,anchors,0,0,0,0,0,0,1,0,0,0,0,1,36,1,Man/Male (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",3,Hispanic/Latinx,2,Beginner,4,4,2,10,3,2,2,0,0,0,0,1,1,3,wom 2,1,1,1,0,1,1,0,2
+45,anchors,0,0,0,0,0,0,1,0,0,0,0,1,36,1,Man/Male (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",3,Hispanic/Latinx,2,Beginner,4,4,2,10,5,8,6,0,0,0,0,1,1,2,wom 3,1,3,1,0,1,1,1,0
+45,anchors,0,0,0,0,0,0,1,0,0,0,0,1,36,1,Man/Male (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",3,Hispanic/Latinx,2,Beginner,4,4,2,10,4,10,8,0,0,0,0,1,1,0,man 1,1,2,1,0,0,0,0,5
+45,anchors,0,0,0,0,0,0,1,0,0,0,0,1,36,1,Man/Male (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",3,Hispanic/Latinx,2,Beginner,4,4,2,10,6,4,4,0,0,0,0,1,1,3,man 2,1,4,1,0,1,0,1,1
+45,anchors,0,0,0,0,0,0,1,0,0,0,0,1,36,1,Man/Male (Cis or Trans),3,Some college but no degree,2,"$50,000 - $99,999",3,Hispanic/Latinx,2,Beginner,4,4,2,10,3,6,6,0,0,0,0,1,1,3,man 3,1,1,1,0,1,1,0,3
+46,anchors,0,0,0,0,0,0,1,0,0,0,0,1,60,0,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,3,Intermediate,5,6,4,15,2,3,2,1,0,0,0,1,1,4,side by side,2,0,0,1,0,0,0,6
+46,anchors,0,0,0,0,0,0,1,0,0,0,0,1,60,0,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,3,Intermediate,5,6,4,15,7,3,2,1,0,0,0,1,1,3,wom 1,1,5,1,1,1,1,0,4
+46,anchors,0,0,0,0,0,0,1,0,0,0,0,1,60,0,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,3,Intermediate,5,6,4,15,4,4,2,1,0,0,0,1,1,3,wom 2,1,2,1,1,0,0,0,1
+46,anchors,0,0,0,0,0,0,1,0,0,0,0,1,60,0,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,3,Intermediate,5,6,4,15,7,3,2,1,0,0,0,1,1,3,wom 3,1,5,1,1,0,0,0,5
+46,anchors,0,0,0,0,0,0,1,0,0,0,0,1,60,0,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,3,Intermediate,5,6,4,15,4,3,2,1,0,0,0,1,1,3,man 1,1,2,1,1,0,0,0,2
+46,anchors,0,0,0,0,0,0,1,0,0,0,0,1,60,0,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,3,Intermediate,5,6,4,15,6,2,2,1,0,0,0,1,1,3,man 2,1,4,1,0,0,0,0,0
+46,anchors,0,0,0,0,0,0,1,0,0,0,0,1,60,0,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,3,Intermediate,5,6,4,15,2,3,2,1,0,0,0,1,1,3,man 3,0,1,1,1,0,0,0,3
+47,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,2,Beginner,2,2,2,6,2,4,4,0,0,0,0,1,1,4,side by side,2,0,0,0,1,1,1,6
+47,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,2,Beginner,2,2,2,6,5,4,4,0,0,0,0,1,1,3,wom 1,1,3,1,0,1,1,0,3
+47,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,2,Beginner,2,2,2,6,4,4,4,0,0,0,0,1,1,3,wom 2,1,2,1,0,1,1,1,5
+47,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,2,Beginner,2,2,2,6,7,4,4,0,0,0,0,1,1,3,wom 3,1,5,1,0,1,1,1,4
+47,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,2,Beginner,2,2,2,6,4,4,4,0,0,0,0,1,1,3,man 1,1,2,1,0,1,1,1,1
+47,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,2,Beginner,2,2,2,6,6,5,5,0,0,0,0,1,1,3,man 2,1,4,1,0,1,1,1,2
+47,anchors,0,0,0,0,0,0,1,0,0,0,0,1,44,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,2,Beginner,2,2,2,6,6,4,4,0,0,0,0,1,1,3,man 3,1,4,1,0,1,1,0,0
+48,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,4,3,10,2,4,4,1,0,0,0,1,1,4,side by side,2,0,0,0,1,1,0,6
+48,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,4,3,10,3,4,4,1,0,0,0,1,1,3,wom 1,1,1,1,0,1,1,0,2
+48,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,4,3,10,3,4,4,1,0,0,0,1,1,3,wom 2,1,1,1,0,1,1,0,0
+48,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,4,3,10,2,6,4,1,0,0,0,1,1,0,wom 3,1,0,1,0,0,0,0,1
+48,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,4,3,10,3,4,4,1,0,0,0,1,1,3,man 1,1,1,1,0,1,1,0,5
+48,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,4,3,10,6,4,4,1,0,0,0,1,1,2,man 2,1,4,1,0,1,1,0,3
+48,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,4,3,10,3,4,4,1,0,0,0,1,1,1,man 3,1,1,1,0,1,1,0,4
+49,anchors,0,0,0,0,0,0,1,0,0,0,0,1,50,0,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,4,Expert,6,5,6,17,2,13,10,0,0,0,0,1,1,1,side by side,2,0,0,1,1,1,1,6
+49,anchors,0,0,0,0,0,0,1,0,0,0,0,1,50,0,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,4,Expert,6,5,6,17,4,13,10,0,0,0,0,1,1,0,wom 1,1,2,1,1,1,1,1,3
+49,anchors,0,0,0,0,0,0,1,0,0,0,0,1,50,0,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,4,Expert,6,5,6,17,4,13,10,0,0,0,0,1,1,1,wom 2,1,2,1,1,1,1,1,0
+49,anchors,0,0,0,0,0,0,1,0,0,0,0,1,50,0,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,4,Expert,6,5,6,17,6,13,10,0,0,0,0,1,1,0,wom 3,1,4,1,1,1,1,1,4
+49,anchors,0,0,0,0,0,0,1,0,0,0,0,1,50,0,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,4,Expert,6,5,6,17,6,12,9,0,0,0,0,1,1,0,man 1,1,4,1,1,1,1,1,2
+49,anchors,0,0,0,0,0,0,1,0,0,0,0,1,50,0,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,4,Expert,6,5,6,17,5,13,10,0,0,0,0,1,1,0,man 2,1,3,1,1,1,1,1,1
+49,anchors,0,0,0,0,0,0,1,0,0,0,0,1,50,0,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",1,White,4,Expert,6,5,6,17,6,11,8,0,0,0,0,1,1,0,man 3,1,4,1,1,1,1,1,5
+50,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Woman/Female (Cis or Trans),8,"Professional degree (JD, MD, PhD)",1,"$0 - $49,999",1,White,1,No familiarity,2,4,5,11,2,2,2,0,0,0,0,1,1,4,side by side,2,0,0,0,1,0,1,6
+50,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Woman/Female (Cis or Trans),8,"Professional degree (JD, MD, PhD)",1,"$0 - $49,999",1,White,1,No familiarity,2,4,5,11,5,8,8,0,0,0,0,1,1,2,wom 1,1,3,1,0,1,1,1,0
+50,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Woman/Female (Cis or Trans),8,"Professional degree (JD, MD, PhD)",1,"$0 - $49,999",1,White,1,No familiarity,2,4,5,11,7,4,4,0,0,0,0,1,1,3,wom 2,1,5,1,0,0,0,0,2
+50,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Woman/Female (Cis or Trans),8,"Professional degree (JD, MD, PhD)",1,"$0 - $49,999",1,White,1,No familiarity,2,4,5,11,6,6,5,0,0,0,0,1,1,3,wom 3,1,4,1,0,1,0,1,3
+50,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Woman/Female (Cis or Trans),8,"Professional degree (JD, MD, PhD)",1,"$0 - $49,999",1,White,1,No familiarity,2,4,5,11,4,3,3,0,0,0,0,1,1,3,man 1,1,2,1,0,1,1,1,5
+50,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Woman/Female (Cis or Trans),8,"Professional degree (JD, MD, PhD)",1,"$0 - $49,999",1,White,1,No familiarity,2,4,5,11,4,6,6,0,0,0,0,1,1,1,man 2,1,2,1,0,1,1,0,1
+50,anchors,0,0,0,0,0,0,1,0,0,0,0,1,55,0,Woman/Female (Cis or Trans),8,"Professional degree (JD, MD, PhD)",1,"$0 - $49,999",1,White,1,No familiarity,2,4,5,11,4,2,2,0,0,0,0,1,1,3,man 3,1,2,1,0,1,0,1,4
+51,anchors,0,0,0,0,0,0,1,0,0,0,0,1,49,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,3,2,1,6,2,10,7,0,0,0,0,1,1,2,side by side,2,0,0,1,1,1,0,6
+51,anchors,0,0,0,0,0,0,1,0,0,0,0,1,49,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,3,2,1,6,1,5,5,0,0,0,0,1,1,3,wom 1,0,1,0,0,1,1,0,4
+51,anchors,0,0,0,0,0,0,1,0,0,0,0,1,49,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,3,2,1,6,3,6,6,0,0,0,0,1,1,1,wom 2,1,2,0,0,1,1,0,5
+51,anchors,0,0,0,0,0,0,1,0,0,0,0,1,49,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,3,2,1,6,5,12,9,0,0,0,0,1,1,0,wom 3,1,4,0,1,1,1,0,2
+51,anchors,0,0,0,0,0,0,1,0,0,0,0,1,49,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,3,2,1,6,5,10,9,0,0,0,0,1,1,1,man 1,1,3,1,1,1,1,0,1
+51,anchors,0,0,0,0,0,0,1,0,0,0,0,1,49,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,3,2,1,6,2,9,8,0,0,0,0,1,1,1,man 2,1,0,1,1,1,1,0,0
+51,anchors,0,0,0,0,0,0,1,0,0,0,0,1,49,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",1,White,2,Beginner,3,2,1,6,3,5,5,0,0,0,0,1,1,3,man 3,1,1,1,0,1,1,1,3
+52,anchors,0,0,0,0,0,0,1,0,0,0,0,1,26,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",2,Black/African American,2,Beginner,4,3,4,11,1,2,2,1,1,1,1,0,1,4,side by side,1,0,0,0,0,0,0,6
+52,anchors,0,0,0,0,0,0,1,0,0,0,0,1,26,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",2,Black/African American,2,Beginner,4,3,4,11,1,11,8,1,1,1,1,0,1,0,wom 1,1,0,0,1,1,1,1,3
+52,anchors,0,0,0,0,0,0,1,0,0,0,0,1,26,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",2,Black/African American,2,Beginner,4,3,4,11,0,10,7,1,1,1,1,0,1,0,wom 2,0,0,0,1,1,1,1,4
+52,anchors,0,0,0,0,0,0,1,0,0,0,0,1,26,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",2,Black/African American,2,Beginner,4,3,4,11,2,11,8,1,1,1,1,0,1,0,wom 3,1,1,0,1,1,1,1,5
+52,anchors,0,0,0,0,0,0,1,0,0,0,0,1,26,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",2,Black/African American,2,Beginner,4,3,4,11,1,6,4,1,1,1,1,0,1,1,man 1,1,0,0,0,0,0,0,2
+52,anchors,0,0,0,0,0,0,1,0,0,0,0,1,26,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",2,Black/African American,2,Beginner,4,3,4,11,2,10,7,1,1,1,1,0,1,0,man 2,1,0,1,1,1,1,1,1
+52,anchors,0,0,0,0,0,0,1,0,0,0,0,1,26,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",2,Black/African American,2,Beginner,4,3,4,11,0,8,7,1,1,1,1,0,1,0,man 3,0,0,0,1,1,1,1,0
+53,anchors,0,0,0,0,0,0,1,0,0,0,0,1,23,1,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",2,Black/African American,2,Beginner,3,4,4,11,0,9,7,0,1,1,0,0,1,1,side by side,0,0,0,0,1,1,1,6
+53,anchors,0,0,0,0,0,0,1,0,0,0,0,1,23,1,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",2,Black/African American,2,Beginner,3,4,4,11,2,9,6,0,1,1,0,0,1,0,wom 1,0,2,0,1,1,1,1,0
+53,anchors,0,0,0,0,0,0,1,0,0,0,0,1,23,1,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",2,Black/African American,2,Beginner,3,4,4,11,1,9,6,0,1,1,0,0,1,1,wom 2,0,1,0,1,1,1,1,5
+53,anchors,0,0,0,0,0,0,1,0,0,0,0,1,23,1,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",2,Black/African American,2,Beginner,3,4,4,11,2,8,6,0,1,1,0,0,1,0,wom 3,1,1,0,1,1,1,1,3
+53,anchors,0,0,0,0,0,0,1,0,0,0,0,1,23,1,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",2,Black/African American,2,Beginner,3,4,4,11,3,10,8,0,1,1,0,0,1,0,man 1,0,2,1,0,1,1,1,1
+53,anchors,0,0,0,0,0,0,1,0,0,0,0,1,23,1,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",2,Black/African American,2,Beginner,3,4,4,11,1,8,6,0,1,1,0,0,1,0,man 2,0,1,0,1,1,1,1,4
+53,anchors,0,0,0,0,0,0,1,0,0,0,0,1,23,1,Man/Male (Cis or Trans),6,Master's degree,3,"$100,000+",2,Black/African American,2,Beginner,3,4,4,11,1,9,7,0,1,1,0,0,1,0,man 3,1,0,0,0,1,1,1,2
+54,anchors,0,0,0,0,0,0,1,0,0,0,0,1,37,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,4,5,4,13,1,9,6,0,0,1,0,0,1,1,side by side,1,0,0,1,1,0,1,6
+54,anchors,0,0,0,0,0,0,1,0,0,0,0,1,37,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,4,5,4,13,3,4,4,0,0,1,0,0,1,3,wom 1,1,1,1,0,0,0,0,4
+54,anchors,0,0,0,0,0,0,1,0,0,0,0,1,37,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,4,5,4,13,1,8,5,0,0,1,0,0,1,0,wom 2,0,0,1,1,0,0,0,1
+54,anchors,0,0,0,0,0,0,1,0,0,0,0,1,37,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,4,5,4,13,5,9,6,0,0,1,0,0,1,0,wom 3,1,3,1,1,1,1,0,5
+54,anchors,0,0,0,0,0,0,1,0,0,0,0,1,37,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,4,5,4,13,3,4,4,0,0,1,0,0,1,3,man 1,1,1,1,0,0,0,0,3
+54,anchors,0,0,0,0,0,0,1,0,0,0,0,1,37,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,4,5,4,13,6,10,7,0,0,1,0,0,1,0,man 2,1,4,1,1,1,1,0,0
+54,anchors,0,0,0,0,0,0,1,0,0,0,0,1,37,0,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,4,5,4,13,3,5,5,0,0,1,0,0,1,3,man 3,1,1,1,0,1,1,1,2
+55,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",8,Other,1,No familiarity,3,2,1,6,0,2,2,1,0,0,0,0,1,4,side by side,0,0,0,0,0,0,0,6
+55,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",8,Other,1,No familiarity,3,2,1,6,2,2,2,1,0,0,0,0,1,3,wom 1,1,1,0,0,0,0,0,5
+55,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",8,Other,1,No familiarity,3,2,1,6,2,2,2,1,0,0,0,0,1,3,wom 2,1,1,0,0,0,0,0,2
+55,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",8,Other,1,No familiarity,3,2,1,6,1,2,2,1,0,0,0,0,1,2,wom 3,0,1,0,0,0,0,0,0
+55,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",8,Other,1,No familiarity,3,2,1,6,3,2,2,1,0,0,0,0,1,3,man 1,1,2,0,0,0,0,0,3
+55,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",8,Other,1,No familiarity,3,2,1,6,2,2,2,1,0,0,0,0,1,3,man 2,0,2,0,0,0,0,0,4
+55,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",8,Other,1,No familiarity,3,2,1,6,3,2,2,1,0,0,0,0,1,3,man 3,1,1,1,0,0,0,0,1
+56,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,3,2,2,7,2,12,9,0,0,1,0,0,1,2,side by side,2,0,0,1,1,1,0,6
+56,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,3,2,2,7,2,11,8,0,0,1,0,0,1,0,wom 1,1,1,0,1,1,1,0,2
+56,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,3,2,2,7,2,11,8,0,0,1,0,0,1,0,wom 2,1,1,0,1,1,1,0,1
+56,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,3,2,2,7,5,12,9,0,0,1,0,0,1,0,wom 3,1,4,0,1,1,1,0,4
+56,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,3,2,2,7,2,11,8,0,0,1,0,0,1,0,man 1,1,1,0,1,1,1,0,0
+56,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,3,2,2,7,4,12,9,0,0,1,0,0,1,1,man 2,1,3,0,1,1,1,0,5
+56,anchors,0,0,0,0,0,0,1,0,0,0,0,1,30,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",2,Black/African American,2,Beginner,3,2,2,7,5,11,8,0,0,1,0,0,1,0,man 3,1,4,0,1,1,1,0,3
+57,anchors,0,0,0,0,0,0,1,0,0,0,0,1,49,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,2,Beginner,6,4,4,14,2,4,3,1,0,0,0,1,1,4,side by side,2,0,0,1,0,0,0,6
+57,anchors,0,0,0,0,0,0,1,0,0,0,0,1,49,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,2,Beginner,6,4,4,14,4,3,2,1,0,0,0,1,1,3,wom 1,1,2,1,1,0,0,0,0
+57,anchors,0,0,0,0,0,0,1,0,0,0,0,1,49,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,2,Beginner,6,4,4,14,6,3,2,1,0,0,0,1,1,3,wom 2,1,4,1,1,0,0,0,5
+57,anchors,0,0,0,0,0,0,1,0,0,0,0,1,49,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,2,Beginner,6,4,4,14,5,4,3,1,0,0,0,1,1,3,wom 3,1,3,1,1,0,0,0,4
+57,anchors,0,0,0,0,0,0,1,0,0,0,0,1,49,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,2,Beginner,6,4,4,14,5,3,2,1,0,0,0,1,1,3,man 1,1,3,1,1,0,0,0,2
+57,anchors,0,0,0,0,0,0,1,0,0,0,0,1,49,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,2,Beginner,6,4,4,14,6,7,6,1,0,0,0,1,1,3,man 2,1,4,1,1,0,0,0,1
+57,anchors,0,0,0,0,0,0,1,0,0,0,0,1,49,0,Woman/Female (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",1,White,2,Beginner,6,4,4,14,5,3,2,1,0,0,0,1,1,3,man 3,1,3,1,1,0,0,0,3
+58,anchors,0,0,0,0,0,0,1,0,0,0,0,1,28,1,Man/Male (Cis or Trans),8,"Professional degree (JD, MD, PhD)",2,"$50,000 - $99,999",8,Other,2,Beginner,2,1,1,4,2,8,8,1,1,1,1,1,1,4,side by side,2,0,0,0,1,1,0,6
+58,anchors,0,0,0,0,0,0,1,0,0,0,0,1,28,1,Man/Male (Cis or Trans),8,"Professional degree (JD, MD, PhD)",2,"$50,000 - $99,999",8,Other,2,Beginner,2,1,1,4,4,8,8,1,1,1,1,1,1,3,wom 1,1,2,1,0,1,1,0,4
+58,anchors,0,0,0,0,0,0,1,0,0,0,0,1,28,1,Man/Male (Cis or Trans),8,"Professional degree (JD, MD, PhD)",2,"$50,000 - $99,999",8,Other,2,Beginner,2,1,1,4,5,8,8,1,1,1,1,1,1,3,wom 2,1,3,1,0,1,1,0,0
+58,anchors,0,0,0,0,0,0,1,0,0,0,0,1,28,1,Man/Male (Cis or Trans),8,"Professional degree (JD, MD, PhD)",2,"$50,000 - $99,999",8,Other,2,Beginner,2,1,1,4,6,11,8,1,1,1,1,1,1,0,wom 3,1,4,1,1,1,1,0,2
+58,anchors,0,0,0,0,0,0,1,0,0,0,0,1,28,1,Man/Male (Cis or Trans),8,"Professional degree (JD, MD, PhD)",2,"$50,000 - $99,999",8,Other,2,Beginner,2,1,1,4,6,8,8,1,1,1,1,1,1,2,man 1,1,4,1,0,1,1,0,1
+58,anchors,0,0,0,0,0,0,1,0,0,0,0,1,28,1,Man/Male (Cis or Trans),8,"Professional degree (JD, MD, PhD)",2,"$50,000 - $99,999",8,Other,2,Beginner,2,1,1,4,3,10,8,1,1,1,1,1,1,0,man 2,1,1,1,0,1,1,0,3
+58,anchors,0,0,0,0,0,0,1,0,0,0,0,1,28,1,Man/Male (Cis or Trans),8,"Professional degree (JD, MD, PhD)",2,"$50,000 - $99,999",8,Other,2,Beginner,2,1,1,4,6,6,6,1,1,1,1,1,1,3,man 3,1,4,1,0,1,1,0,5
+59,anchors,0,0,0,0,0,0,1,0,0,0,0,1,52,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,4,Expert,6,6,6,18,2,15,12,0,0,0,0,1,1,1,side by side,2,0,0,1,1,1,0,6
+59,anchors,0,0,0,0,0,0,1,0,0,0,0,1,52,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,4,Expert,6,6,6,18,4,15,12,0,0,0,0,1,1,0,wom 1,1,2,1,1,1,1,0,2
+59,anchors,0,0,0,0,0,0,1,0,0,0,0,1,52,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,4,Expert,6,6,6,18,2,15,12,0,0,0,0,1,1,0,wom 2,1,1,0,1,1,1,0,4
+59,anchors,0,0,0,0,0,0,1,0,0,0,0,1,52,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,4,Expert,6,6,6,18,6,15,12,0,0,0,0,1,1,0,wom 3,1,4,1,1,1,1,0,5
+59,anchors,0,0,0,0,0,0,1,0,0,0,0,1,52,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,4,Expert,6,6,6,18,4,15,12,0,0,0,0,1,1,0,man 1,1,2,1,1,1,1,0,1
+59,anchors,0,0,0,0,0,0,1,0,0,0,0,1,52,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,4,Expert,6,6,6,18,5,15,12,0,0,0,0,1,1,0,man 2,1,4,0,1,1,1,0,0
+59,anchors,0,0,0,0,0,0,1,0,0,0,0,1,52,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,4,Expert,6,6,6,18,6,15,12,0,0,0,0,1,1,0,man 3,1,4,1,1,1,1,0,3
+60,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",2,Black/African American,3,Intermediate,4,4,5,13,1,14,11,1,1,0,1,1,1,1,side by side,1,0,0,1,1,1,0,6
+60,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",2,Black/African American,3,Intermediate,4,4,5,13,3,13,12,1,1,0,1,1,1,3,wom 1,1,1,1,1,1,1,0,0
+60,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",2,Black/African American,3,Intermediate,4,4,5,13,3,2,2,1,1,0,1,1,1,3,wom 2,1,1,1,0,0,0,0,3
+60,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",2,Black/African American,3,Intermediate,4,4,5,13,5,14,11,1,1,0,1,1,1,0,wom 3,1,3,1,1,1,1,1,4
+60,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",2,Black/African American,3,Intermediate,4,4,5,13,3,2,2,1,1,0,1,1,1,2,man 1,1,1,1,0,0,0,0,2
+60,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",2,Black/African American,3,Intermediate,4,4,5,13,4,11,8,1,1,0,1,1,1,0,man 2,1,3,0,1,1,1,1,5
+60,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),3,Some college but no degree,1,"$0 - $49,999",2,Black/African American,3,Intermediate,4,4,5,13,3,2,2,1,1,0,1,1,1,3,man 3,1,1,1,0,0,0,0,1
+61,anchors,0,0,0,0,0,0,1,0,0,0,0,1,46,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,4,4,13,1,10,10,1,0,1,1,1,1,4,side by side,1,0,0,0,0,0,0,6
+61,anchors,0,0,0,0,0,0,1,0,0,0,0,1,46,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,4,4,13,3,10,9,1,0,1,1,1,1,2,wom 1,1,2,0,0,0,0,0,0
+61,anchors,0,0,0,0,0,0,1,0,0,0,0,1,46,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,4,4,13,1,9,8,1,0,1,1,1,1,2,wom 2,1,0,0,0,1,1,0,3
+61,anchors,0,0,0,0,0,0,1,0,0,0,0,1,46,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,4,4,13,5,9,7,1,0,1,1,1,1,1,wom 3,0,4,1,1,1,1,0,4
+61,anchors,0,0,0,0,0,0,1,0,0,0,0,1,46,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,4,4,13,3,7,7,1,0,1,1,1,1,1,man 1,1,1,1,0,1,0,1,2
+61,anchors,0,0,0,0,0,0,1,0,0,0,0,1,46,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,4,4,13,4,9,9,1,0,1,1,1,1,2,man 2,1,3,0,0,1,1,0,5
+61,anchors,0,0,0,0,0,0,1,0,0,0,0,1,46,0,Man/Male (Cis or Trans),6,Master's degree,2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,4,4,13,3,8,8,1,0,1,1,1,1,2,man 3,1,1,1,0,1,1,0,1
+62,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,2,2,2,0,0,0,0,1,1,4,side by side,2,0,0,0,0,0,0,6
+62,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,4,6,5,0,0,0,0,1,1,3,wom 1,1,2,1,1,0,0,0,0
+62,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,5,3,3,0,0,0,0,1,1,2,wom 2,1,3,1,0,0,0,0,5
+62,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,6,2,2,0,0,0,0,1,1,3,wom 3,1,4,1,0,0,0,0,3
+62,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,4,4,4,0,0,0,0,1,1,2,man 1,1,2,1,0,0,0,0,4
+62,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,6,4,4,0,0,0,0,1,1,1,man 2,1,4,1,0,0,0,0,2
+62,anchors,0,0,0,0,0,0,1,0,0,0,0,1,35,1,Woman/Female (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,3,6,6,0,0,0,0,1,1,2,man 3,1,1,1,0,1,1,0,1
+63,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",2,Black/African American,3,Intermediate,5,5,5,15,2,11,10,0,0,0,0,1,1,2,side by side,2,0,0,0,1,1,0,6
+63,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",2,Black/African American,3,Intermediate,5,5,5,15,3,13,10,0,0,0,0,1,1,0,wom 1,1,1,1,1,1,1,1,2
+63,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",2,Black/African American,3,Intermediate,5,5,5,15,4,13,10,0,0,0,0,1,1,0,wom 2,1,2,1,1,1,1,1,3
+63,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",2,Black/African American,3,Intermediate,5,5,5,15,4,13,10,0,0,0,0,1,1,0,wom 3,1,2,1,1,1,1,1,4
+63,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",2,Black/African American,3,Intermediate,5,5,5,15,3,13,10,0,0,0,0,1,1,0,man 1,1,1,1,1,1,1,1,5
+63,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",2,Black/African American,3,Intermediate,5,5,5,15,3,13,10,0,0,0,0,1,1,0,man 2,1,2,0,1,1,1,1,0
+63,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",2,Black/African American,3,Intermediate,5,5,5,15,4,13,10,0,0,0,0,1,1,0,man 3,1,2,1,1,1,1,1,1
+64,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,4,4,11,2,9,7,0,0,0,0,0,0,0,side by side,2,0,0,0,0,0,0,6
+64,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,4,4,11,3,8,6,0,0,0,0,0,0,2,wom 1,1,2,0,0,0,0,0,4
+64,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,4,4,11,2,5,3,0,0,0,0,0,0,1,wom 2,1,0,1,0,0,0,0,0
+64,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,4,4,11,5,10,7,0,0,0,0,0,0,1,wom 3,1,4,0,1,0,0,0,2
+64,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,4,4,11,2,9,7,0,0,0,0,0,0,2,man 1,1,0,1,0,0,0,0,3
+64,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,4,4,11,2,10,8,0,0,0,0,0,0,1,man 2,1,1,0,0,0,0,0,5
+64,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,4,4,11,5,8,6,0,0,0,0,0,0,2,man 3,1,3,1,0,0,0,0,1
+65,anchors,0,0,0,0,0,0,1,0,0,0,0,1,38,0,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,2,3,3,1,0,0,0,1,1,4,side by side,2,0,0,0,1,1,1,6
+65,anchors,0,0,0,0,0,0,1,0,0,0,0,1,38,0,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,4,2,2,1,0,0,0,1,1,3,wom 1,1,2,1,0,1,0,1,5
+65,anchors,0,0,0,0,0,0,1,0,0,0,0,1,38,0,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,3,3,3,1,0,0,0,1,1,3,wom 2,1,1,1,0,1,0,1,3
+65,anchors,0,0,0,0,0,0,1,0,0,0,0,1,38,0,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,6,4,4,1,0,0,0,1,1,3,wom 3,1,4,1,0,1,0,1,0
+65,anchors,0,0,0,0,0,0,1,0,0,0,0,1,38,0,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,5,2,2,1,0,0,0,1,1,3,man 1,1,3,1,0,1,0,1,4
+65,anchors,0,0,0,0,0,0,1,0,0,0,0,1,38,0,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,6,5,4,1,0,0,0,1,1,3,man 2,1,4,1,0,1,0,1,2
+65,anchors,0,0,0,0,0,0,1,0,0,0,0,1,38,0,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),2,"$50,000 - $99,999",1,White,2,Beginner,3,3,2,8,5,3,3,1,0,0,0,1,1,3,man 3,1,3,1,0,1,0,1,1
+66,anchors,0,0,0,0,0,0,1,0,0,0,0,1,62,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,4,3,4,11,1,8,7,0,0,0,0,1,1,3,side by side,1,0,0,1,1,1,0,6
+66,anchors,0,0,0,0,0,0,1,0,0,0,0,1,62,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,4,3,4,11,4,8,7,0,0,0,0,1,1,2,wom 1,1,2,1,0,1,1,1,3
+66,anchors,0,0,0,0,0,0,1,0,0,0,0,1,62,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,4,3,4,11,5,8,7,0,0,0,0,1,1,1,wom 2,1,3,1,0,1,1,0,4
+66,anchors,0,0,0,0,0,0,1,0,0,0,0,1,62,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,4,3,4,11,5,10,8,0,0,0,0,1,1,1,wom 3,1,4,0,0,1,1,0,5
+66,anchors,0,0,0,0,0,0,1,0,0,0,0,1,62,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,4,3,4,11,3,9,7,0,0,0,0,1,1,0,man 1,1,1,1,0,1,1,0,2
+66,anchors,0,0,0,0,0,0,1,0,0,0,0,1,62,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,4,3,4,11,4,9,7,0,0,0,0,1,1,0,man 2,1,3,0,0,1,1,0,1
+66,anchors,0,0,0,0,0,0,1,0,0,0,0,1,62,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,4,3,4,11,4,9,7,0,0,0,0,1,1,2,man 3,1,2,1,0,1,1,0,0
+67,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,5,3,3,11,2,7,4,0,0,0,0,1,1,1,side by side,2,0,0,1,1,0,1,6
+67,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,5,3,3,11,3,5,4,0,0,0,0,1,1,2,wom 1,1,1,1,1,1,1,0,3
+67,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,5,3,3,11,3,5,4,0,0,0,0,1,1,2,wom 2,1,1,1,1,0,0,0,4
+67,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,5,3,3,11,6,12,9,0,0,0,0,1,1,0,wom 3,1,4,1,1,1,1,0,0
+67,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,5,3,3,11,3,3,2,0,0,0,0,1,1,2,man 1,1,1,1,1,0,0,0,5
+67,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,5,3,3,11,3,13,10,0,0,0,0,1,1,0,man 2,1,2,0,1,1,1,0,1
+67,anchors,0,0,0,0,0,0,1,0,0,0,0,1,27,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),1,"$0 - $49,999",1,White,3,Intermediate,5,3,3,11,4,13,10,0,0,0,0,1,1,0,man 3,1,2,1,1,1,1,0,2
+68,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),1,"$0 - $49,999",1,White,2,Beginner,4,3,4,11,2,9,7,0,1,0,1,0,1,2,side by side,2,0,0,0,1,1,0,6
+68,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),1,"$0 - $49,999",1,White,2,Beginner,4,3,4,11,0,9,7,0,1,0,1,0,1,2,wom 1,0,0,0,0,1,1,0,2
+68,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),1,"$0 - $49,999",1,White,2,Beginner,4,3,4,11,2,8,6,0,1,0,1,0,1,1,wom 2,0,2,0,1,0,0,0,5
+68,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),1,"$0 - $49,999",1,White,2,Beginner,4,3,4,11,3,9,8,0,1,0,1,0,1,1,wom 3,1,2,0,1,1,1,1,0
+68,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),1,"$0 - $49,999",1,White,2,Beginner,4,3,4,11,3,7,5,0,1,0,1,0,1,1,man 1,1,2,0,0,1,0,1,3
+68,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),1,"$0 - $49,999",1,White,2,Beginner,4,3,4,11,3,8,7,0,1,0,1,0,1,2,man 2,1,1,1,0,1,1,1,4
+68,anchors,0,0,0,0,0,0,1,0,0,0,0,1,20,1,Woman/Female (Cis or Trans),4,Associate degree in college (2-year),1,"$0 - $49,999",1,White,2,Beginner,4,3,4,11,3,12,10,0,1,0,1,0,1,2,man 3,1,2,0,0,1,1,0,1
+69,anchors,0,0,0,0,0,0,1,0,0,0,0,1,37,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",3,Hispanic/Latinx,1,No familiarity,5,5,5,15,1,13,10,1,0,0,0,0,1,1,side by side,1,0,0,1,1,1,0,6
+69,anchors,0,0,0,0,0,0,1,0,0,0,0,1,37,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",3,Hispanic/Latinx,1,No familiarity,5,5,5,15,1,15,12,1,0,0,0,0,1,0,wom 1,0,0,1,1,1,1,0,4
+69,anchors,0,0,0,0,0,0,1,0,0,0,0,1,37,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",3,Hispanic/Latinx,1,No familiarity,5,5,5,15,1,12,9,1,0,0,0,0,1,0,wom 2,0,0,1,1,1,1,0,5
+69,anchors,0,0,0,0,0,0,1,0,0,0,0,1,37,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",3,Hispanic/Latinx,1,No familiarity,5,5,5,15,4,9,6,1,0,0,0,0,1,0,wom 3,1,3,0,1,1,1,0,3
+69,anchors,0,0,0,0,0,0,1,0,0,0,0,1,37,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",3,Hispanic/Latinx,1,No familiarity,5,5,5,15,1,9,6,1,0,0,0,0,1,0,man 1,0,1,0,1,1,1,0,0
+69,anchors,0,0,0,0,0,0,1,0,0,0,0,1,37,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",3,Hispanic/Latinx,1,No familiarity,5,5,5,15,3,11,8,1,0,0,0,0,1,0,man 2,1,2,0,1,1,1,0,1
+69,anchors,0,0,0,0,0,0,1,0,0,0,0,1,37,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",3,Hispanic/Latinx,1,No familiarity,5,5,5,15,2,5,4,1,0,0,0,0,1,3,man 3,0,1,1,1,1,0,1,2
+70,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",4,Asian,2,Beginner,5,5,5,15,1,13,10,0,0,0,0,1,1,1,side by side,1,0,0,1,1,1,1,6
+70,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",4,Asian,2,Beginner,5,5,5,15,2,13,11,0,0,0,0,1,1,0,wom 1,0,1,1,0,1,1,1,4
+70,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",4,Asian,2,Beginner,5,5,5,15,3,10,8,0,0,0,0,1,1,1,wom 2,0,2,1,0,1,1,1,1
+70,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",4,Asian,2,Beginner,5,5,5,15,6,13,10,0,0,0,0,1,1,0,wom 3,1,4,1,1,1,1,1,5
+70,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",4,Asian,2,Beginner,5,5,5,15,5,9,7,0,0,0,0,1,1,1,man 1,1,3,1,0,1,1,1,0
+70,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",4,Asian,2,Beginner,5,5,5,15,6,13,10,0,0,0,0,1,1,0,man 2,1,4,1,1,1,1,1,3
+70,anchors,0,0,0,0,0,0,1,0,0,0,0,1,24,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",4,Asian,2,Beginner,5,5,5,15,4,12,10,0,0,0,0,1,1,0,man 3,1,2,1,0,1,1,1,2
+71,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),1,"$0 - $49,999",1,White,2,Beginner,4,4,5,13,1,5,4,1,0,0,0,1,1,4,side by side,1,0,0,1,1,1,0,6
+71,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),1,"$0 - $49,999",1,White,2,Beginner,4,4,5,13,5,3,2,1,0,0,0,1,1,2,wom 1,1,3,1,1,0,0,0,5
+71,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),1,"$0 - $49,999",1,White,2,Beginner,4,4,5,13,3,3,2,1,0,0,0,1,1,3,wom 2,0,2,1,1,0,0,0,1
+71,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),1,"$0 - $49,999",1,White,2,Beginner,4,4,5,13,3,11,8,1,0,0,0,1,1,0,wom 3,1,1,1,1,0,0,0,2
+71,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),1,"$0 - $49,999",1,White,2,Beginner,4,4,5,13,2,3,2,1,0,0,0,1,1,2,man 1,1,0,1,1,1,1,0,4
+71,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),1,"$0 - $49,999",1,White,2,Beginner,4,4,5,13,3,15,12,1,0,0,0,1,1,0,man 2,1,1,1,1,1,1,0,3
+71,anchors,0,0,0,0,0,0,1,0,0,0,0,1,33,1,Man/Male (Cis or Trans),2,High school graduate (high school diploma or equivalent including GED),1,"$0 - $49,999",1,White,2,Beginner,4,4,5,13,3,11,8,1,0,0,0,1,1,0,man 3,1,1,1,1,1,1,0,0
+72,anchors,0,0,0,0,0,0,1,0,0,0,0,1,32,1,Man/Male (Cis or Trans),4,Associate degree in college (2-year),2,"$50,000 - $99,999",1,White,3,Intermediate,5,6,6,17,2,15,12,0,0,0,0,1,1,1,side by side,2,0,0,1,1,1,0,6
+72,anchors,0,0,0,0,0,0,1,0,0,0,0,1,32,1,Man/Male (Cis or Trans),4,Associate degree in college (2-year),2,"$50,000 - $99,999",1,White,3,Intermediate,5,6,6,17,3,7,4,0,0,0,0,1,1,0,wom 1,1,2,0,1,1,0,1,4
+72,anchors,0,0,0,0,0,0,1,0,0,0,0,1,32,1,Man/Male (Cis or Trans),4,Associate degree in college (2-year),2,"$50,000 - $99,999",1,White,3,Intermediate,5,6,6,17,1,5,2,0,0,0,0,1,1,0,wom 2,1,0,0,1,1,0,1,1
+72,anchors,0,0,0,0,0,0,1,0,0,0,0,1,32,1,Man/Male (Cis or Trans),4,Associate degree in college (2-year),2,"$50,000 - $99,999",1,White,3,Intermediate,5,6,6,17,3,14,11,0,0,0,0,1,1,0,wom 3,1,2,0,1,1,1,1,2
+72,anchors,0,0,0,0,0,0,1,0,0,0,0,1,32,1,Man/Male (Cis or Trans),4,Associate degree in college (2-year),2,"$50,000 - $99,999",1,White,3,Intermediate,5,6,6,17,4,8,5,0,0,0,0,1,1,0,man 1,1,3,0,1,0,0,0,3
+72,anchors,0,0,0,0,0,0,1,0,0,0,0,1,32,1,Man/Male (Cis or Trans),4,Associate degree in college (2-year),2,"$50,000 - $99,999",1,White,3,Intermediate,5,6,6,17,3,15,12,0,0,0,0,1,1,0,man 2,1,1,1,1,1,1,0,0
+72,anchors,0,0,0,0,0,0,1,0,0,0,0,1,32,1,Man/Male (Cis or Trans),4,Associate degree in college (2-year),2,"$50,000 - $99,999",1,White,3,Intermediate,5,6,6,17,6,10,7,0,0,0,0,1,1,0,man 3,1,4,1,1,0,0,0,5
+73,anchors,0,0,0,0,0,0,1,0,0,0,0,1,59,0,Man/Male (Cis or Trans),4,Associate degree in college (2-year),3,"$100,000+",1,White,1,No familiarity,4,4,3,11,2,5,5,0,0,0,0,1,1,4,side by side,2,0,0,0,0,0,0,6
+73,anchors,0,0,0,0,0,0,1,0,0,0,0,1,59,0,Man/Male (Cis or Trans),4,Associate degree in college (2-year),3,"$100,000+",1,White,1,No familiarity,4,4,3,11,6,5,5,0,0,0,0,1,1,3,wom 1,1,4,1,0,1,1,0,2
+73,anchors,0,0,0,0,0,0,1,0,0,0,0,1,59,0,Man/Male (Cis or Trans),4,Associate degree in college (2-year),3,"$100,000+",1,White,1,No familiarity,4,4,3,11,4,6,6,0,0,0,0,1,1,3,wom 2,1,2,1,0,1,1,0,3
+73,anchors,0,0,0,0,0,0,1,0,0,0,0,1,59,0,Man/Male (Cis or Trans),4,Associate degree in college (2-year),3,"$100,000+",1,White,1,No familiarity,4,4,3,11,6,9,7,0,0,0,0,1,1,2,wom 3,1,4,1,0,1,1,0,0
+73,anchors,0,0,0,0,0,0,1,0,0,0,0,1,59,0,Man/Male (Cis or Trans),4,Associate degree in college (2-year),3,"$100,000+",1,White,1,No familiarity,4,4,3,11,4,7,6,0,0,0,0,1,1,1,man 1,1,2,1,0,1,1,0,4
+73,anchors,0,0,0,0,0,0,1,0,0,0,0,1,59,0,Man/Male (Cis or Trans),4,Associate degree in college (2-year),3,"$100,000+",1,White,1,No familiarity,4,4,3,11,7,9,7,0,0,0,0,1,1,0,man 2,1,5,1,0,1,1,0,5
+73,anchors,0,0,0,0,0,0,1,0,0,0,0,1,59,0,Man/Male (Cis or Trans),4,Associate degree in college (2-year),3,"$100,000+",1,White,1,No familiarity,4,4,3,11,4,6,6,0,0,0,0,1,1,3,man 3,1,2,1,0,1,1,0,1
+74,anchors,0,0,0,0,0,0,1,0,0,0,0,1,28,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,5,5,15,2,15,12,0,0,0,0,1,1,1,side by side,2,0,0,1,1,1,0,6
+74,anchors,0,0,0,0,0,0,1,0,0,0,0,1,28,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,5,5,15,5,4,4,0,0,0,0,1,1,3,wom 1,1,3,1,0,1,0,1,4
+74,anchors,0,0,0,0,0,0,1,0,0,0,0,1,28,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,5,5,15,2,6,3,0,0,0,0,1,1,0,wom 2,1,0,1,1,1,1,0,0
+74,anchors,0,0,0,0,0,0,1,0,0,0,0,1,28,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,5,5,15,5,13,10,0,0,0,0,1,1,0,wom 3,1,4,0,1,1,1,0,2
+74,anchors,0,0,0,0,0,0,1,0,0,0,0,1,28,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,5,5,15,4,7,4,0,0,0,0,1,1,0,man 1,1,2,1,1,1,1,0,5
+74,anchors,0,0,0,0,0,0,1,0,0,0,0,1,28,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,5,5,15,6,14,11,0,0,0,0,1,1,0,man 2,1,5,0,1,1,1,0,1
+74,anchors,0,0,0,0,0,0,1,0,0,0,0,1,28,1,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),2,"$50,000 - $99,999",2,Black/African American,3,Intermediate,5,5,5,15,3,12,12,0,0,0,0,1,1,3,man 3,1,1,1,0,1,0,1,3
+75,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,3,Intermediate,6,5,1,12,2,3,3,1,0,0,0,1,1,4,side by side,2,0,0,0,0,0,0,6
+75,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,3,Intermediate,6,5,1,12,1,6,6,1,0,0,0,1,1,3,wom 1,1,0,0,0,1,1,0,4
+75,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,3,Intermediate,6,5,1,12,4,5,5,1,0,0,0,1,1,3,wom 2,1,2,1,0,1,1,0,2
+75,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,3,Intermediate,6,5,1,12,5,8,8,1,0,0,0,1,1,3,wom 3,1,3,1,0,1,1,0,1
+75,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,3,Intermediate,6,5,1,12,1,6,6,1,0,0,0,1,1,3,man 1,1,0,0,0,1,1,0,3
+75,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,3,Intermediate,6,5,1,12,1,4,4,1,0,0,0,1,1,3,man 2,1,0,0,0,1,1,0,5
+75,anchors,0,0,0,0,0,0,1,0,0,0,0,1,42,0,Man/Male (Cis or Trans),5,Bachelor's degree in college (4-year),3,"$100,000+",1,White,3,Intermediate,6,5,1,12,4,7,7,1,0,0,0,1,1,3,man 3,1,2,1,0,1,1,0,0

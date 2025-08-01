@@ -1,0 +1,419 @@
+---
+title: "RQ2 RQ3 Stats script"
+date: "03/31/2025"
+output:
+  pdf_document:
+  toc: yes
+html_document:
+  code_folding: hide
+fig_height: 6
+fig_width: 8
+highlight: pygments
+theme: cosmo
+toc: yes
+toc_float: yes
+word_document:
+  toc: yes
+always_allow_html: yes
+---
+  
+```{r setup, include=FALSE}
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+if(!require(tidyverse)){install.packages("tidyverse")}
+library(tidyverse)
+if(!require(tidyverse)){install.packages("ggplot2")}
+library(ggplot2)
+if(!require(car)){install.packages("car")}
+library(car)
+if(!require(lme4)){install.packages("lme4")}
+library(lme4)
+if(!require(psych)){install.packages("psych")}
+library(psych)
+if(!require(directlabels)){install.packages("directlabels")}
+library(directlabels)
+if(!require(lavaan)){install.packages("lavaan")}
+library(lavaan)
+if(!require(emmeans)){install.packages("emmeans")}
+library(emmeans)
+```
+
+# Import the data
+
+```{r}
+# Import the longtable with all results
+lt <- read.csv(file="total_longtable.csv")
+# Separate out results for RQ2 and RQ3 
+lt_RQ2 <- lt[lt$initial_visualizations == 1,]
+lt_RQ3 <- lt[lt$initial_visualizations == 0,]
+```
+
+
+
+# RQ2: Do differences in taxonomic visualization design elements correspond to 
+# differences in comprehension, bias perception, and trust?
+
+## Aggregating scores
+
+We aggregate the longtable scores for comprehension, trust, and operationalized 
+bias across all questions per participant to get their totals for every person.
+
+```{r}
+lt_RQ2_aggregate <- lt_RQ2 %>%
+  group_by(Pid, Vis_Type, qualitative_model_perception, Gender, Age, 
+           Familiarity) %>%
+  summarise(
+    comprehension = sum(comprehension),
+    trust = sum(trust),
+    likert.only.trust=sum(likert.only.trust),
+    bias.operational = sum(bias.operational),
+    correct.output = sum(correct.output),
+    correct.pushing = sum(correct.pushing),
+    correct.power = sum(correct.power),
+    .groups = "drop" 
+  )
+```
+
+## Comprehension
+
+We fit a linear model with the operationalized comprehension score as the 
+dependent variable and the visualization type as the predictor. We run an 
+Analysis of Variance (Anova) test on this model to confirm that the 
+visualization type is a significant predictor of comprehension. We run emmeans 
+to find that participants viewing LIME had the highest comprehension scores, 
+while participants viewing Anchors had the lowest scores.
+
+```{r}
+long_table_model <- lm(formula = comprehension ~ Vis_Type, 
+                       data = lt_RQ2_aggregate)
+
+Anova(long_table_model)
+
+emmeans(long_table_model, ~ Vis_Type)
+```
+
+We also notice that visualizations with explicit magnitude and direction of 
+feature impact had higher average comprehension scores than those where these 
+must be inferred ($41.05$ vs.\ $23.45$).
+```{r}
+mean(lt_RQ2_aggregate[(lt_RQ2_aggregate$Vis_Type != "cp" & 
+                         lt_RQ2_aggregate$Vis_Type 
+                       != "anchors"),]$comprehension)
+mean(lt_RQ2_aggregate[(lt_RQ2_aggregate$Vis_Type == "cp" | 
+                         lt_RQ2_aggregate$Vis_Type == 
+                         "anchors"),]$comprehension)
+```
+
+We fit a linear model with the aggregate correctness score as the dependent 
+variable, and the aggregate perception score as the predictor, and find that 
+perceived comprehension is a significant predictor of objective comprehension. 
+That is, the participants were more likely to self-report better comprehension
+if they did indeed better understand the model. 
+
+```{r}
+long_table_model <- lm(formula = trust ~ qualitative_model_perception, 
+                       data = lt_RQ2_aggregate)
+
+Anova(long_table_model)
+
+exp(coef(long_table_model))
+
+cor(lt_RQ2_aggregate$qualitative_model_perception, 
+    lt_RQ2_aggregate$comprehension, method = c("pearson"))
+```
+
+We isolate each component of the Comprehension metric. We find that 
+visualization is a significant predictor of whether participants correctly 
+indicated model output. People were most likely to correctly indicate output 
+when looking at LIME.
+
+```{r}
+long_table_model <- lm(formula = correct.output ~ Vis_Type, 
+                       data = lt_RQ2_aggregate)
+
+Anova(long_table_model)
+
+emmeans(long_table_model, ~ Vis_Type)
+```
+
+We find that visualization is a significant predictor of whether participants 
+correctly indicated direction of feature impact. People were most likely to 
+correctly indicate impact direction when looking at LIME.
+
+```{r}
+
+long_table_model <- lm(formula = correct.pushing ~ Vis_Type, 
+                       data = lt_RQ2_aggregate)
+
+Anova(long_table_model)
+
+emmeans(long_table_model, ~ Vis_Type)
+
+```
+
+We find that visualization is a significant predictor of whether participants 
+correctly indicated the most impactful feature. People were most likely to 
+correctly indicate the most impactful feature when looking at LIME.
+
+```{r}
+
+long_table_model <- lm(formula = correct.power ~ Vis_Type, 
+                       data = lt_RQ2_aggregate)
+
+Anova(long_table_model)
+
+emmeans(long_table_model, ~ Vis_Type)
+
+```
+
+## Trust in the underlying model
+
+We fit a linear model with the operationalized trust score as the dependent 
+variable and the visualization type as the predictor. We run an Analysis of 
+Variance (Anova) test on this model to confirm that the visualization type is 
+a significant predictor of trust. We run emmeans to find that participants 
+viewing Ceteris-Paribus (CP) had the highest trust scores, while participants 
+viewing Shap Force Plots had the lowest scores.
+
+```{r}
+long_table_model <- lm(formula = trust ~ Vis_Type, data = lt_RQ2_aggregate)
+
+Anova(long_table_model)
+
+emmeans(long_table_model, ~ Vis_Type)
+```
+
+We isolate responses to the question `Do people agree with the statement 
+"Computer models can be trusted to make human decisions" less over time as 
+they see a biased model?` We find that there is a significant trend where 
+participants are more likely to say "no" to this question as they see more 
+output instances for the biased model.
+```{r}
+model <- glmer(computers.can.make.human.decisions ~ order.seen + 
+               (1 | Pid), family = binomial, data = lt_RQ2)
+summary(model)
+```
+
+## Perceived Bias
+
+We fit a linear model with the operationalized bias perception score as the 
+dependent variable and the visualization type as the predictor.
+We run an Analysis of Variance (Anova) test on this model to confirm that the 
+visualization type is a significant predictor of bias perception.
+We run emmeans to find that participants viewing Shap Force Plots had the 
+highest bias perception scores, while participants viewing CP had the lowest 
+scores.
+
+```{r}
+long_table_model <- lm(formula = bias.operational ~ Vis_Type, 
+                       data = lt_RQ2_aggregate)
+
+Anova(long_table_model)
+
+emmeans(long_table_model, ~ Vis_Type)
+```
+
+## Trust vs. Comperehension
+
+We perform a Pearson correlation test and find comprehension and trust to be 
+significantly negatively correlated - i.e., increased comprehension results in
+decreased trust.
+
+```{r}
+long_table_model <- lm(formula = trust ~ comprehension, data = lt_RQ2_aggregate)
+
+Anova(long_table_model)
+
+exp(coef(long_table_model))
+
+cor(lt_RQ2_aggregate$trust, lt_RQ2_aggregate$comprehension, 
+    method = c("pearson"))
+```
+
+## Mediation Analysis
+
+We fit a linear model with operationalized trust as the dependent variable, 
+and comprehension and bias perception as the predictors.We find that the only 
+significant predictor of trust score is bias perception
+
+```{r}
+long_table_model <- lm(formula = trust ~ comprehension + bias.operational, 
+                       data = lt_RQ2_aggregate)
+
+chisq.test(lt_RQ2_aggregate$trust,predict(long_table_model))
+
+Anova(long_table_model)
+```
+
+To better understand the above, we fit a model with bias perception as the 
+dependent variable, and comprehension as the predictor. This model shows that 
+aggregate comprehension score is a significant predictor of bias perception, 
+and suggests that bias perception mediates the relationship between 
+comprehension and trust.
+
+```{r}
+long_table_model <- lm(formula = bias.operational ~ comprehension, 
+                       data = lt_RQ2_aggregate)
+
+chisq.test(lt_RQ2_aggregate$trust,predict(long_table_model))
+
+Anova(long_table_model)
+```
+
+We fit a mediation model with trust score as the dependent variable, the 
+comprehension score as the predictor, and the bias perception score as 
+the mediator. We find that comprehension has a direct positive effect on 
+bias perception, and bias perception had a direct negative effect on trust.
+That is, increased comprehension indirectly decreases trust by impacting 
+perception of bias. 
+```{r}
+
+mediation_model <- '
+  # Mediator equation: effect of comprehension on the mediator (bias percep.)
+  bias.operational ~ a * comprehension
+
+  # Outcome equation: direct effect of comprehension and effect of the 
+  # mediator (bias percep.) on trust
+  trust ~ c_prime * comprehension + b * bias.operational
+
+  # Indirect effect: the mediation path (a * b)
+  indirect := a * b
+
+  # Total effect: sum of the direct and indirect effects
+  total := c_prime + indirect
+'
+
+# Estimate the mediation model
+mediation_results <- sem(mediation_model, data = lt_RQ2_aggregate)
+
+# Summarize the results
+summary(mediation_results, standardized = TRUE, fit.measures = TRUE)
+
+```
+
+## Qualitative Analysis
+
+We find that in 51.15% of responses, participants thought the model would give
+them a loan.
+
+```{r}
+mean(lt$this.model.will.give.me.a.loan)
+```
+
+We find that in 33.86% of responses, participants thought the model would give
+them a loan.
+```{r}
+mean(lt$this.model.shouldnt.give.me.a.loan)
+```
+
+We find that when participants felt the model would give them a loan, they 
+trusted it significantly more than when they did not feel this way. 
+
+```{r}
+wilcox.test(trust ~ this.model.will.give.me.a.loan, data = lt_RQ2)
+```
+
+We find that when participants also trusted the model more if they felt that 
+it would not give them a loan but they thought this was the right decision.
+```{r}
+wilcox.test(trust ~ this.model.shouldnt.give.me.a.loan, data = lt_RQ2)
+```
+```{r}
+wilcox.test(trust ~ this.model.will.or.shouldnt.give.me.a.loan, data = lt_RQ2)
+cohen.d(trust ~ this.model.will.or.shouldnt.give.me.a.loan, data = lt_RQ2)
+```
+
+```{r}
+wilcox.test(bias.operational ~ this.model.will.or.shouldnt.give.me.a.loan, data = lt_RQ2)
+cohen.d(bias.operational ~ this.model.will.or.shouldnt.give.me.a.loan, data = lt_RQ2)
+```
+
+# RQ3: Do there exist causal relationships between comprehension, bias 
+# perception, and trust?
+
+## Comprehension impacts bias perception
+
+We find that adding explicit indicators of model output, feature impact 
+direction and feature impact magnitude has a significant effect on 
+comprehension, trust, and perceived bias. Cohen's D indicates that there is a 
+positive medium effect on comprehension, a small positive effect on 
+bias perception, and a small negative effect on trust. This indicates that 
+including explicit values increases comprehension and bias perception, 
+and therefore decreases trust.
+
+```{r}
+explicit_experiment <- lt[(lt$Vis_Type == "cp" | lt$Vis_Type == "cp_explicit"),]
+
+explicit_experiment$Vis_Type <- 
+  ifelse(explicit_experiment$Vis_Type == "cp", "inferred",
+  ifelse(explicit_experiment$Vis_Type == "cp_explicit", "explicit",
+  explicit_experiment$Vis_Type))
+
+wilcox.test(trust ~ Vis_Type, data = explicit_experiment)
+cohen.d(trust ~ Vis_Type, data = explicit_experiment)
+wilcox.test(bias.operational ~ Vis_Type, data = explicit_experiment)
+cohen.d(bias.operational ~ Vis_Type, data = explicit_experiment)
+wilcox.test(comprehension ~ Vis_Type, data = explicit_experiment)
+cohen.d(comprehension ~ Vis_Type, data = explicit_experiment)
+```
+
+## Lower bias results in higher trust
+
+We see significant differences in comprehension, trust, and perceived bias 
+when comparing responses for the same visualization with a fair and an unfair
+underlying model. When looking at effect sizes, we can see that the effect 
+size of comprehension is negligible. This indicates that the comprehension 
+differs very little between the fair and the biased model. However, 
+introducing the fair model does result in a small negative effect on 
+bias perception and subsequently a small positive effect on trust. 
+This indicates that with a high level of comprehension, decreasing the 
+incidence of bias will decrease the perception of bias, and lead to an 
+increase in trust. 
+
+```{r}
+fair_experiment <- lt[(lt$Vis_Type == "interactive" | 
+                         lt$Vis_Type == "interactive_fair"),]
+
+fair_experiment$Vis_Type <- 
+  ifelse(fair_experiment$Vis_Type == "interactive", "unfair",
+  ifelse(fair_experiment$Vis_Type == "interactive_fair", "fair",
+  explicit_experiment$Vis_Type))
+
+wilcox.test(trust ~ Vis_Type, data = fair_experiment)
+cohen.d(trust ~ Vis_Type, data = fair_experiment)
+wilcox.test(bias.operational ~ Vis_Type, data = fair_experiment)
+cohen.d(bias.operational ~ Vis_Type, data = fair_experiment)
+wilcox.test(comprehension ~ Vis_Type, data = fair_experiment)
+cohen.d(comprehension ~ Vis_Type, data = fair_experiment)
+```
+
+
+## Artificially lowered bias perception also results in higher trust
+
+We observe significant differences in perceived bias and trust, and less 
+significant differences in comprehension, between a visualization designed to 
+decrease bias perception, and a visualization designed to increase bias 
+perception. Cohen's D shows that the effect size for comprehension is 
+incredibly negligible, while effect sizes for increased bias perception and 
+decreased trust are small. These effects indicate that even in the case where 
+changes in comprehension are small or negligible, a change in perception of 
+bias can impact trust.
+
+```{r}
+bias_experiment <- lt[(lt$Vis_Type == "interactive_lower_bias_percep" | 
+                         lt$Vis_Type == "interactive_higher_bias_percep"),]
+bias_experiment$Vis_Type <- 
+  ifelse(bias_experiment$Vis_Type == "interactive_lower_bias_percep", 
+         "interactive_lower_bias_percep",
+  ifelse(bias_experiment$Vis_Type == "interactive_higher_bias_percep", 
+         "interactive_upper_bias_percep",
+  explicit_experiment$Vis_Type))
+wilcox.test(trust ~ Vis_Type, data = bias_experiment)
+cohen.d(trust ~ Vis_Type, data = bias_experiment)
+wilcox.test(bias.operational ~ Vis_Type, data = bias_experiment)
+cohen.d(bias.operational ~ Vis_Type, data = bias_experiment)
+wilcox.test(comprehension ~ Vis_Type, data = bias_experiment)
+cohen.d(comprehension ~ Vis_Type, data = bias_experiment)
+```
+
+
+

@@ -1,0 +1,1090 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1112.0850                               -->
+<workbook original-version='18.1' source-build='2024.3.1 (20243.24.1112.0850)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='qualitative_responses_all (qualitative_responses_all)' inline='true' name='federated.0x2ehou0bdwff81awq7tt1b48iop' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='qualitative_responses_all' name='excel-direct.0kvnqir03q5m7k1bxxncy0sbwghz'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/zhannakaufman/Documents/LASER/Explainability_stats/qualitative_responses/qualitative_responses_all.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='integer' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[X axis]' />
+            <value name='[Alternative Examples]' />
+            <value name='[bars]' />
+            <value name='[Base Value]' />
+            <value name='[color]' />
+            <value name='[feature labelling]' />
+            <value name='[position]' />
+            <value name='[values]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[qualitative_responses_all].[X axis]' />
+              <field name='[qualitative_responses_all].[alternative examples]' />
+              <field name='[qualitative_responses_all].[bars]' />
+              <field name='[qualitative_responses_all].[base value]' />
+              <field name='[qualitative_responses_all].[color]' />
+              <field name='[qualitative_responses_all].[feature labelling]' />
+              <field name='[qualitative_responses_all].[position]' />
+              <field name='[qualitative_responses_all].[values]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.0kvnqir03q5m7k1bxxncy0sbwghz' name='qualitative_responses_all' table='[qualitative_responses_all$]' type='table'>
+            <columns gridOrigin='A1:AF1777:no:A1:AF1777:0' header='yes' outcome='6'>
+              <column datatype='string' name='Vis Type' ordinal='0' />
+              <column datatype='string' name='Model type' ordinal='1' />
+              <column datatype='string' name='Helpful' ordinal='2' />
+              <column datatype='string' name='Response' ordinal='3' />
+              <column datatype='integer' name='position ind. direction' ordinal='4' />
+              <column datatype='integer' name='position ind. magnitude' ordinal='5' />
+              <column datatype='integer' name='position' ordinal='6' />
+              <column datatype='integer' name='color ind. direction' ordinal='7' />
+              <column datatype='integer' name='color ind. magnitude' ordinal='8' />
+              <column datatype='integer' name='color ind. output' ordinal='9' />
+              <column datatype='integer' name='color' ordinal='10' />
+              <column datatype='integer' name='bars ind. direction' ordinal='11' />
+              <column datatype='integer' name='bars ind. magnitude' ordinal='12' />
+              <column datatype='integer' name='bars ind. output' ordinal='13' />
+              <column datatype='integer' name='bars' ordinal='14' />
+              <column datatype='integer' name='values ind. direction' ordinal='15' />
+              <column datatype='integer' name='values ind. magnitude' ordinal='16' />
+              <column datatype='integer' name='values ind. output' ordinal='17' />
+              <column datatype='integer' name='values' ordinal='18' />
+              <column datatype='integer' name='axis ind. magnitude' ordinal='19' />
+              <column datatype='integer' name='axis ind. output' ordinal='20' />
+              <column datatype='integer' name='X axis' ordinal='21' />
+              <column datatype='integer' name='feature labelling' ordinal='22' />
+              <column datatype='integer' name='alternative examples' ordinal='23' />
+              <column datatype='integer' name='base value' ordinal='24' />
+              <column datatype='integer' name='blanklines' ordinal='25' />
+              <column datatype='integer' name='blankrows' ordinal='26' />
+              <column datatype='string' name='Column22' ordinal='27' />
+              <column datatype='string' name='Column23' ordinal='28' />
+              <column datatype='string' name='Column24' ordinal='29' />
+              <column datatype='string' name='Column25' ordinal='30' />
+              <column datatype='string' name='Column26' ordinal='31' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AF1777:no:A1:AF1777:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vis Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Vis Type]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>Vis Type</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Model type]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>Model type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Helpful</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Helpful]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>Helpful</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Response</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Response]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>Response</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>position ind. direction</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[position ind. direction]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>position ind. direction</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>position ind. magnitude</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[position ind. magnitude]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>position ind. magnitude</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>color ind. direction</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[color ind. direction]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>color ind. direction</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>color ind. magnitude</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[color ind. magnitude]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>color ind. magnitude</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>color ind. output</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[color ind. output]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>color ind. output</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bars ind. direction</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bars ind. direction]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>bars ind. direction</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bars ind. magnitude</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bars ind. magnitude]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>bars ind. magnitude</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bars ind. output</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bars ind. output]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>bars ind. output</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>values ind. direction</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[values ind. direction]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>values ind. direction</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>values ind. magnitude</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[values ind. magnitude]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>values ind. magnitude</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>values ind. output</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[values ind. output]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>values ind. output</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>axis ind. magnitude</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[axis ind. magnitude]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>axis ind. magnitude</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>axis ind. output</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[axis ind. output]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>axis ind. output</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>blanklines</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[blanklines]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>blanklines</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>blankrows</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[blankrows]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>blankrows</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Column22</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Column22]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>Column22</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Column23</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Column23]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>Column23</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Column24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Column24]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>Column24</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Column25</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Column25]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>Column25</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Column26</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Column26]</local-name>
+            <parent-name>[qualitative_responses_all]</parent-name>
+            <remote-alias>Column26</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' hidden='true' name='[Column22]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Column23]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Column24]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Column25]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Column26]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Helpful]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Model type]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;comp&quot;' value='Fairness' />
+          <alias key='&quot;single&quot;' value='Comprehension' />
+        </aliases>
+      </column>
+      <column caption='Dimension' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;Alternative Examples&quot;' value='Alt. Examples' />
+          <alias key='&quot;X axis&quot;' value='X/Y axis' />
+          <alias key='&quot;bars&quot;' value='Bars' />
+          <alias key='&quot;color&quot;' value='Color' />
+          <alias key='&quot;feature labelling&quot;' value='Features' />
+          <alias key='&quot;position&quot;' value='Position' />
+          <alias key='&quot;values&quot;' value='Values' />
+        </aliases>
+      </column>
+      <column caption='# participants' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <column caption='qualitative_responses_all' datatype='table' name='[__tableau_internal_object_id__].[qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF]' role='measure' type='quantitative' />
+      <column caption='Axis Ind. Magnitude' datatype='integer' name='[axis ind. magnitude]' role='measure' type='quantitative' />
+      <column caption='Axis Ind. Output' datatype='integer' name='[axis ind. output]' role='measure' type='quantitative' />
+      <column caption='Bars Ind. Direction' datatype='integer' name='[bars ind. direction]' role='measure' type='quantitative' />
+      <column caption='Bars Ind. Magnitude' datatype='integer' name='[bars ind. magnitude]' role='measure' type='quantitative' />
+      <column caption='Bars Ind. Output' datatype='integer' name='[bars ind. output]' role='measure' type='quantitative' />
+      <column caption='Blanklines' datatype='integer' name='[blanklines]' role='measure' type='quantitative' />
+      <column caption='Blankrows' datatype='integer' hidden='true' name='[blankrows]' role='measure' type='quantitative' />
+      <column caption='Color Ind. Direction' datatype='integer' name='[color ind. direction]' role='measure' type='quantitative' />
+      <column caption='Color Ind. Magnitude' datatype='integer' name='[color ind. magnitude]' role='measure' type='quantitative' />
+      <column caption='Color Ind. Output' datatype='integer' name='[color ind. output]' role='measure' type='quantitative' />
+      <column caption='Position Ind. Direction' datatype='integer' name='[position ind. direction]' role='measure' type='quantitative' />
+      <column caption='Position Ind. Magnitude' datatype='integer' name='[position ind. magnitude]' role='measure' type='quantitative' />
+      <column caption='Values Ind. Direction' datatype='integer' name='[values ind. direction]' role='measure' type='quantitative' />
+      <column caption='Values Ind. Magnitude' datatype='integer' name='[values ind. magnitude]' role='measure' type='quantitative' />
+      <column caption='Values Ind. Output' datatype='integer' name='[values ind. output]' role='measure' type='quantitative' />
+      <column-instance column='[Helpful]' derivation='None' name='[none:Helpful:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Model type]' derivation='None' name='[none:Model type:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Model type:nk]&#10;[none:Helpful:nk]' palette='color_blind_10_0' type='palette'>
+            <map to='#1170aa'>
+              <multibucket>
+                <bucket>&quot;single&quot;</bucket>
+                <bucket>&quot;most&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#a3cce9'>
+              <multibucket>
+                <bucket>&quot;single&quot;</bucket>
+                <bucket>&quot;least&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#fc7d0b'>
+              <multibucket>
+                <bucket>&quot;comp&quot;</bucket>
+                <bucket>&quot;most&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#ffbc79'>
+              <multibucket>
+                <bucket>&quot;comp&quot;</bucket>
+                <bucket>&quot;least&quot;</bucket>
+              </multibucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='qualitative_responses_all' id='qualitative!responses!all_F9BB4AC042864715998130F0B6E959DF'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Pivot Field Names' />
+                  <column datatype='integer' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[X axis]' />
+                  <value name='[Alternative Examples]' />
+                  <value name='[bars]' />
+                  <value name='[Base Value]' />
+                  <value name='[color]' />
+                  <value name='[feature labelling]' />
+                  <value name='[position]' />
+                  <value name='[values]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[qualitative_responses_all].[X axis]' />
+                    <field name='[qualitative_responses_all].[alternative examples]' />
+                    <field name='[qualitative_responses_all].[bars]' />
+                    <field name='[qualitative_responses_all].[base value]' />
+                    <field name='[qualitative_responses_all].[color]' />
+                    <field name='[qualitative_responses_all].[feature labelling]' />
+                    <field name='[qualitative_responses_all].[position]' />
+                    <field name='[qualitative_responses_all].[values]' />
+                  </group>
+                </groups>
+                <relation connection='excel-direct.0kvnqir03q5m7k1bxxncy0sbwghz' name='qualitative_responses_all' table='[qualitative_responses_all$]' type='table'>
+                  <columns gridOrigin='A1:AF1777:no:A1:AF1777:0' header='yes' outcome='6'>
+                    <column datatype='string' name='Vis Type' ordinal='0' />
+                    <column datatype='string' name='Model type' ordinal='1' />
+                    <column datatype='string' name='Helpful' ordinal='2' />
+                    <column datatype='string' name='Response' ordinal='3' />
+                    <column datatype='integer' name='position ind. direction' ordinal='4' />
+                    <column datatype='integer' name='position ind. magnitude' ordinal='5' />
+                    <column datatype='integer' name='position' ordinal='6' />
+                    <column datatype='integer' name='color ind. direction' ordinal='7' />
+                    <column datatype='integer' name='color ind. magnitude' ordinal='8' />
+                    <column datatype='integer' name='color ind. output' ordinal='9' />
+                    <column datatype='integer' name='color' ordinal='10' />
+                    <column datatype='integer' name='bars ind. direction' ordinal='11' />
+                    <column datatype='integer' name='bars ind. magnitude' ordinal='12' />
+                    <column datatype='integer' name='bars ind. output' ordinal='13' />
+                    <column datatype='integer' name='bars' ordinal='14' />
+                    <column datatype='integer' name='values ind. direction' ordinal='15' />
+                    <column datatype='integer' name='values ind. magnitude' ordinal='16' />
+                    <column datatype='integer' name='values ind. output' ordinal='17' />
+                    <column datatype='integer' name='values' ordinal='18' />
+                    <column datatype='integer' name='axis ind. magnitude' ordinal='19' />
+                    <column datatype='integer' name='axis ind. output' ordinal='20' />
+                    <column datatype='integer' name='X axis' ordinal='21' />
+                    <column datatype='integer' name='feature labelling' ordinal='22' />
+                    <column datatype='integer' name='alternative examples' ordinal='23' />
+                    <column datatype='integer' name='base value' ordinal='24' />
+                    <column datatype='integer' name='blanklines' ordinal='25' />
+                    <column datatype='integer' name='blankrows' ordinal='26' />
+                    <column datatype='string' name='Column22' ordinal='27' />
+                    <column datatype='string' name='Column23' ordinal='28' />
+                    <column datatype='string' name='Column24' ordinal='29' />
+                    <column datatype='string' name='Column25' ordinal='30' />
+                    <column datatype='string' name='Column26' ordinal='31' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Qualitative Responses for Feature Usefulness
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='qualitative_responses_all (qualitative_responses_all)' name='federated.0x2ehou0bdwff81awq7tt1b48iop' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0x2ehou0bdwff81awq7tt1b48iop'>
+            <column datatype='string' name='[Helpful]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Model type]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;comp&quot;' value='Fairness' />
+                <alias key='&quot;single&quot;' value='Comprehension' />
+              </aliases>
+            </column>
+            <column caption='Dimension' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Alternative Examples&quot;' value='Alt. Examples' />
+                <alias key='&quot;X axis&quot;' value='X/Y axis' />
+                <alias key='&quot;bars&quot;' value='Bars' />
+                <alias key='&quot;color&quot;' value='Color' />
+                <alias key='&quot;feature labelling&quot;' value='Features' />
+                <alias key='&quot;position&quot;' value='Position' />
+                <alias key='&quot;values&quot;' value='Values' />
+              </aliases>
+            </column>
+            <column caption='# participants' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Helpful]' derivation='None' name='[none:Helpful:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Model type]' derivation='None' name='[none:Model type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0x2ehou0bdwff81awq7tt1b48iop].[none:Model type:nk]' value='119' />
+            <format attr='width' field='[federated.0x2ehou0bdwff81awq7tt1b48iop].[none:Helpful:nk]' value='75' />
+            <format attr='height' field='[federated.0x2ehou0bdwff81awq7tt1b48iop].[none:Pivot Field Names:nk]' value='21' />
+            <format attr='cell-w' value='20' />
+            <format attr='cell-h' value='20' />
+            <format attr='cell' value='20' />
+            <format attr='cell-q' value='100' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0x2ehou0bdwff81awq7tt1b48iop].[none:Pivot Field Names:nk]' value='84' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size' field='[federated.0x2ehou0bdwff81awq7tt1b48iop].[sum:Pivot Field Values:qk]' field-type='quantitative' max-size='1' min-size='0' type='quantsize' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='alternate-text' field='[federated.0x2ehou0bdwff81awq7tt1b48iop].[sum:Pivot Field Values:qk]' value='' />
+            <format attr='display-alternate-text' field='[federated.0x2ehou0bdwff81awq7tt1b48iop].[sum:Pivot Field Values:qk]' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <size column='[federated.0x2ehou0bdwff81awq7tt1b48iop].[sum:Pivot Field Values:qk]' />
+              <color column='[federated.0x2ehou0bdwff81awq7tt1b48iop].[none:Model type:nk]' />
+              <color column='[federated.0x2ehou0bdwff81awq7tt1b48iop].[none:Helpful:nk]' />
+              <text column='[federated.0x2ehou0bdwff81awq7tt1b48iop].[sum:Pivot Field Values:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='color' value='#898989' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.7999999523162842' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0x2ehou0bdwff81awq7tt1b48iop].[none:Pivot Field Names:nk]</rows>
+        <cols>([federated.0x2ehou0bdwff81awq7tt1b48iop].[none:Model type:nk] / [federated.0x2ehou0bdwff81awq7tt1b48iop].[none:Helpful:nk])</cols>
+      </table>
+      <simple-id uuid='{8636F559-4CA1-4BD2-8F40-EB3FF0CC2218}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0x2ehou0bdwff81awq7tt1b48iop].[sum:Pivot Field Values:qk]' type='size' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='300'>
+            <card pane-specification-id='0' param='[federated.0x2ehou0bdwff81awq7tt1b48iop].[none:Model type:nk]&#10;[federated.0x2ehou0bdwff81awq7tt1b48iop].[none:Helpful:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0x2ehou0bdwff81awq7tt1b48iop].[none:Helpful:nk]</field>
+            <field>[federated.0x2ehou0bdwff81awq7tt1b48iop].[none:Model type:nk]</field>
+            <field>[federated.0x2ehou0bdwff81awq7tt1b48iop].[none:Pivot Field Names:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6438C933-0DFD-4448-9A36-D1B5BBD39E11}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      mfyKl/8fj9AateIP7FYAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

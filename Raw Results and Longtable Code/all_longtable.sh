@@ -1,0 +1,14 @@
+python3 make_longtable.py lime_Raw.csv lime_make_longtable.csv lime
+python3 make_longtable.py shap_Raw.csv shap_make_longtable.csv shap
+python3 make_longtable.py cp_Raw.csv cp_make_longtable.csv cp
+python3 make_longtable.py force_shap_Raw.csv forceshap_make_longtable.csv forceshap
+python3 make_longtable.py eli5_Raw.csv eli5_make_longtable.csv eli5
+python3 make_longtable.py anchors_Raw.csv anchors_make_longtable.csv anchors
+python3 make_longtable.py cp_explicit_Raw.csv cp_explicit_make_longtable.csv cp_explicit
+python3 make_longtable.py interactive_Raw.csv int_make_longtable.csv interactive
+python3 make_longtable.py interactive_lower_bias_percep_Raw.csv interactive_lower_bias_percep_make_longtable.csv interactive_lower_bias_percep
+python3 make_longtable.py interactive_higher_bias_percep_Raw.csv interactive_higher_bias_percep_make_longtable.csv interactive_higher_bias_percep
+python3 make_longtable_varfair.py interactive_fair_Raw.csv interactive_fair_make_longtable.csv interactive_fair
+python3 combine_longtables.py lime_make_longtable.csv shap_make_longtable.csv cp_make_longtable.csv forceshap_make_longtable.csv eli5_make_longtable.csv anchors_make_longtable.csv cp_explicit_make_longtable.csv int_make_longtable.csv interactive_lower_bias_percep_make_longtable.csv interactive_higher_bias_percep_make_longtable.csv interactive_fair_make_longtable.csv total_longtable.csv
+cp total_longtable.csv ../paper_figures
+cp total_longtable.csv ../stats_scripts
