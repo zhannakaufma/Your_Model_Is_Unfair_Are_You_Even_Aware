@@ -15,8 +15,12 @@ Key files and directories:
 - `RQ2_RQ3_Stats_Script.pdf`: Outputs of running the above R script printed to pdf via knit.
 - `R_figures.Rmd`: R Script containing everything needed to generate paper figures 1 and 5.
 - `R_figures.pdf`: Outputs of running the above R script printed to pdf via knit.
+- `total_longtable.csv`: Longtable generated via `Raw Results and Longtable Code/` that includes all results and is used for the `Rmd` files.
 - `Taxonomy.pdf`: Full taxonomy described in research question 1 applied to 26 different explainability tools. 
 - `Disparate Impact Quantification.pdf`: Comparison of fair and unfair model outputs across gender and age demographic groups.
+
+## Replicating Statistical Results
+Please run `RQ2_RQ3_Stats_Script.Rmd` 
 
 ## Generating Paper figures 
 # Figure 1 
