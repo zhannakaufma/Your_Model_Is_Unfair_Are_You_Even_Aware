@@ -18,23 +18,24 @@ Key files and directories:
 - `total_longtable.csv`: Longtable generated via `Raw Results and Longtable Code/` that includes all results and is used for the `Rmd` files.
 - `Taxonomy.pdf`: Full taxonomy described in research question 1 applied to 26 different explainability tools. 
 - `Disparate Impact Quantification.pdf`: Comparison of fair and unfair model outputs across gender and age demographic groups.
+- `paper_figures`: Adobe Illustrator files used to make figures 1, 5, and 8 in the paper. 
 
 ## Replicating Statistical Results
 Please run `RQ2_RQ3_Stats_Script.Rmd` 
 
 ## Generating Paper figures 
-# Figure 1 
-Use file `R_figures.Rmd`
-# Figure 2
+### Figure 1 
+Use file `R_figures.Rmd`, and `paper_figures/figure-1.ai`
+### Figure 2
 Use file `Taxonomy.pdf`
-# Figure 4 
+### Figure 4 
 Use files in `Colab code for visualization generation/`
-# Figure 5 
-Use file `R_figures.Rmd`
-# Figures 6 - 7
+### Figure 5 
+Use file `R_figures.Rmd` and `paper_figures/figure-5.ai`
+### Figures 6 - 7
 Use files in `Qualitative Responses/`
-# Figure 8 
-Use files in `Colab code for visualization generation/`
+### Figure 8 
+Use files in `Colab code for visualization generation/` and `paper_figures/figure-8.ai`
 
 ## Paper Citation
 > Z. Kaufman, M. Endres, C. Xiong Bearfield, and Y. Brun. 2025. *Your Model Is Unfair, Are You Even Aware? Inverse Relationship Between Comprehension and Trust in Explainability Visualizations of Biased ML Models*. TVCG. 
