@@ -9,12 +9,12 @@ Systems relying on ML have become ubiquitous, but so has biased behavior within 
 Key files and directories:
 - `Colab code for visualization generation/`: This is the code for generating all of the visualizations we used in our surveys (paper figures 4 and 8). The code is separated out by explainability type for all surveys used in RQ2 (SHAP Force, SHAP Waterfall, ELI5, Ceteris-Paribus, LIME, Anchors). For RQ3, files are titled *Survey code for Followup Experiments*. Each file exists as a Jyupiter notebook to be run in Colab, a python file, and a PDF printout of a Colab run. 
 - `Surveys/`: PDFs of all of the surveys described in our paper, generated using the above files.
-- `Raw Results and Longtable Code/`: All of our data in raw form and in longtable form, and the scripts we used to generate our longtables from our raw data. To generate the main longtable file, *total_longtable.csv*, please run *all_longtable.sh* in this directory. 
-- `Qualitative Responses/`: Coded qualitative response data, and tableau files for generating paper figures 6 and 7. 
+- `Raw Results and Longtable Code/`: All of our data in raw form and in longtable form, and the scripts we used to generate our longtables from our raw data. To generate the main longtable file, *total_longtable.csv*, please run *all_longtable.sh* in this directory. This longtable file is used by `RQ2_RQ3_Stats_Script.Rmd` and R_figures.Rmd`.
 - `RQ2_RQ3_Stats_Script.Rmd`: R Script containing all statistical tests run on longtable data for research questions 2 and 3. 
 - `RQ2_RQ3_Stats_Script.pdf`: Outputs of running the above R script printed to pdf via knit.
 - `R_figures.Rmd`: R Script containing everything needed to generate paper figures 1 and 5.
 - `R_figures.pdf`: Outputs of running the above R script printed to pdf via knit.
+- `Qualitative Responses/`: Coded qualitative response data, and tableau files for generating paper figures 6 and 7. 
 - `total_longtable.csv`: Longtable generated via `Raw Results and Longtable Code/` that includes all results and is used for the `Rmd` files.
 - `Taxonomy.pdf`: Full taxonomy described in research question 1 applied to 26 different explainability tools. 
 - `Disparate Impact Quantification.pdf`: Comparison of fair and unfair model outputs across gender and age demographic groups.
