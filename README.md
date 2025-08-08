@@ -21,7 +21,7 @@ Key files and directories:
 - `paper_figures`: Adobe Illustrator files used to make figures 1, 5, and 8 in the paper. 
 
 ## Dependencies and Requirements 
-- All required software is free.
+- All required software aside from Adobe Illustrator is free.
 - For any `ipynb` Jyupiter notebook files, please use Google colab with a python 3 runtime type and a CPU hardware accelerator.
   - Colab should install any required dependencies, but we have also included a `requirements.txt` file 
 - To run bash files that generate longtable code, please use a linux or OSX terminal with `python3` installed.
