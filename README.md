@@ -23,6 +23,7 @@ Key files and directories:
 ## Dependencies and Requirements 
 - All required software is free.
 - For any `ipynb` Jyupiter notebook files, please use Google colab with a python 3 runtime type and a CPU hardware accelerator.
+- - Colab should install any required dependencies, but we have also included a `requirements.txt` file 
 - To run bash files that generate longtable code, please use a linux or OSX terminal with `python3` installed.
 - For `Rmd` files, please run Rstudio (version >= 2024.09.1+394). All required libraries will be installed and loaded by these scripts.
 - For `.twbx` tableau files, please open in Tableau Public (Version >= 2025.2.0 (20252.25.0514.2217))
