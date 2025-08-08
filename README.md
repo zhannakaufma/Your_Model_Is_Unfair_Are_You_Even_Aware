@@ -39,32 +39,32 @@ Use file `R_figures.Rmd`, and `paper_figures/figure-1.ai`
 Use file `Taxonomy.pdf`
 ### Figure 4 
 Use files in `Colab code for visualization generation/`
-### 4a 
+#### 4a 
 - Open `Survey code for SHAP Waterfall.ipynb` in Google colab
 - Upload `Umbrella.csv` to "Files" to make it available to the script 
 - Under runtime, select "Run all"
 - You will see figure 4a under "Generate a tutorial explanation"
-### 4b
+#### 4b
 - Open `Survey code for SHAP Force.ipynb` in Google colab
 - Upload `Umbrella.csv` to "Files" to make it available to the script 
 - Under runtime, select "Run all"
 - You will see figure 4a under "Generate a tutorial explanation"
-### 4c
+#### 4c
 - Open `Survey code for ELI5.ipynb` in Google colab
 - Upload `Umbrella.csv` to "Files" to make it available to the script 
 - Under runtime, select "Run all"
 - You will see figure 4a under "Generate a tutorial explanation"
-### 4d
+#### 4d
 - Open `Survey code for LIME.ipynb` in Google colab
 - Upload `Umbrella.csv` to "Files" to make it available to the script 
 - Under runtime, select "Run all"
 - You will see figure 4a under "Generate a tutorial explanation"
-### 4e
+#### 4e
 - Open `Survey code for Ceteris-Paribus.ipynb` in Google colab
 - Upload `Umbrella.csv` to "Files" to make it available to the script 
 - Under runtime, select "Run all"
 - You will see figure 4a under "Generate a tutorial explanation"
-### 4f
+#### 4f
 - Open `Survey code for Anchors.ipynb` in Google colab
 - Upload `Umbrella.csv` to "Files" to make it available to the script 
 - Under runtime, select "Run all"
@@ -73,6 +73,8 @@ Use files in `Colab code for visualization generation/`
 Use file `R_figures.Rmd` and `paper_figures/figure-5.ai`
 ### Figures 6 - 7
 Use files in `Qualitative Responses/`
+#### Figure 6
+- Open `Figure_6.twbx` in Tableau Public.
 ### Figure 8 
 Use files in `Colab code for visualization generation/` and `paper_figures/figure-8.ai`
 
