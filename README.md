@@ -75,8 +75,13 @@ Use file `R_figures.Rmd` and `paper_figures/figure-5.ai`
 Use files in `Qualitative Responses/`
 #### Figure 6
 - Open `Figure_6.twbx` in Tableau Public.
+#### Figure 7
+- Open `Figure_7.twbx` in Tableau Public.
 ### Figure 8 
 Use files in `Colab code for visualization generation/` and `paper_figures/figure-8.ai`
+- Open `Survey code for Followup Experiments.ipynb` in Google colab
+- Upload `Umbrella.csv` to "Files" to make it available to the script 
+- Under runtime, select "Run all"
 
 ## Paper Citation
 > Z. Kaufman, M. Endres, C. Xiong Bearfield, and Y. Brun. 2025. *Your Model Is Unfair, Are You Even Aware? Inverse Relationship Between Comprehension and Trust in Explainability Visualizations of Biased ML Models*. TVCG. 
