@@ -9,7 +9,7 @@ Systems relying on ML have become ubiquitous, but so has biased behavior within 
 Key files and directories:
 - `Colab code for visualization generation/`: This is the code for generating all of the visualizations we used in our surveys (paper figures 4 and 8). The code is separated out by explainability type for all surveys used in RQ2 (SHAP Force, SHAP Waterfall, ELI5, Ceteris-Paribus, LIME, Anchors). For RQ3, files are titled *Survey code for Followup Experiments*. Each file exists as a Jyupiter notebook to be run in Colab, a python file, and a PDF printout of a Colab run. 
 - `Surveys/`: PDFs of all of the surveys described in our paper, generated using the above files.
-- `Raw Results and Longtable Code/`: All of our data in raw form and in longtable form, and the scripts we used to generate our longtables from our raw data. To generate the main longtable file, *total_longtable.csv*, please run *all_longtable.sh* in this directory. This longtable file is used by `RQ2_RQ3_Stats_Script.Rmd` and R_figures.Rmd`.
+- `Raw Results and Longtable Code/`: All of our data in raw form and in longtable form, and the scripts we used to generate our longtables from our raw data. To generate the main longtable file, `total_longtable.csv`, please run `all_longtable.sh` in this directory. This longtable file is used by `RQ2_RQ3_Stats_Script.Rmd` and `R_figures.Rmd`.
 - `RQ2_RQ3_Stats_Script.Rmd`: R Script containing all statistical tests run on longtable data for research questions 2 and 3. 
 - `RQ2_RQ3_Stats_Script.pdf`: Outputs of running the above R script printed to pdf via knit.
 - `R_figures.Rmd`: R Script containing everything needed to generate paper figures 1 and 5.
@@ -19,6 +19,14 @@ Key files and directories:
 - `Taxonomy.pdf`: Full taxonomy described in research question 1 applied to 26 different explainability tools. 
 - `Disparate Impact Quantification.pdf`: Comparison of fair and unfair model outputs across gender and age demographic groups.
 - `paper_figures`: Adobe Illustrator files used to make figures 1, 5, and 8 in the paper. 
+
+## Dependencies and Requirements 
+- All required software is free.
+- For any `ipynb` Jyupiter notebook files, please use Google colab with a python 3 runtime type and a CPU hardware accelerator.
+- To run bash files that generate longtable code, please use a linux or OSX terminal with `python3` installed.
+- For `Rmd` files, please run Rstudio (version >= 2024.09.1+394). All required libraries will be installed and loaded by these scripts.
+- For `.twbx` tableau files, please open in Tableau Public (Version >= 2025.2.0 (20252.25.0514.2217))
+- For `.ai` adobe illustrator files, please use Adobe illustrator.
 
 ## Replicating Statistical Results
 Please run `RQ2_RQ3_Stats_Script.Rmd` 
