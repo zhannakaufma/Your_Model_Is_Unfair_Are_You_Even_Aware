@@ -23,7 +23,7 @@ Key files and directories:
 ## Dependencies and Requirements 
 - All required software is free.
 - For any `ipynb` Jyupiter notebook files, please use Google colab with a python 3 runtime type and a CPU hardware accelerator.
-- - Colab should install any required dependencies, but we have also included a `requirements.txt` file 
+  - Colab should install any required dependencies, but we have also included a `requirements.txt` file 
 - To run bash files that generate longtable code, please use a linux or OSX terminal with `python3` installed.
 - For `Rmd` files, please run Rstudio (version >= 2024.09.1+394). All required libraries will be installed and loaded by these scripts.
 - For `.twbx` tableau files, please open in Tableau Public (Version >= 2025.2.0 (20252.25.0514.2217))
@@ -40,21 +40,35 @@ Use file `Taxonomy.pdf`
 ### Figure 4 
 Use files in `Colab code for visualization generation/`
 ### 4a 
-SHAP waterfall
-* Open `Survey code for SHAP Waterfall.ipynb` in Google colab
-* Upload `Umbrella.csv` to "Files" to make it available to the script 
-* Under runtime, select "Run all"
-* You will see figure 4a under "Generate a tutorial explanation"
+- Open `Survey code for SHAP Waterfall.ipynb` in Google colab
+- Upload `Umbrella.csv` to "Files" to make it available to the script 
+- Under runtime, select "Run all"
+- You will see figure 4a under "Generate a tutorial explanation"
 ### 4b
-SHAP Force
+- Open `Survey code for SHAP Force.ipynb` in Google colab
+- Upload `Umbrella.csv` to "Files" to make it available to the script 
+- Under runtime, select "Run all"
+- You will see figure 4a under "Generate a tutorial explanation"
 ### 4c
-ELI5
+- Open `Survey code for ELI5.ipynb` in Google colab
+- Upload `Umbrella.csv` to "Files" to make it available to the script 
+- Under runtime, select "Run all"
+- You will see figure 4a under "Generate a tutorial explanation"
 ### 4d
-LIME
+- Open `Survey code for LIME.ipynb` in Google colab
+- Upload `Umbrella.csv` to "Files" to make it available to the script 
+- Under runtime, select "Run all"
+- You will see figure 4a under "Generate a tutorial explanation"
 ### 4e
-CP
+- Open `Survey code for Ceteris-Paribus.ipynb` in Google colab
+- Upload `Umbrella.csv` to "Files" to make it available to the script 
+- Under runtime, select "Run all"
+- You will see figure 4a under "Generate a tutorial explanation"
 ### 4f
-Anchors
+- Open `Survey code for Anchors.ipynb` in Google colab
+- Upload `Umbrella.csv` to "Files" to make it available to the script 
+- Under runtime, select "Run all"
+- You will see figure 4a under "Generate a tutorial explanation"
 ### Figure 5 
 Use file `R_figures.Rmd` and `paper_figures/figure-5.ai`
 ### Figures 6 - 7
