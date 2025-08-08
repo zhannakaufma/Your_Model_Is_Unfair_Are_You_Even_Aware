@@ -30,7 +30,7 @@ Key files and directories:
 - For `.ai` adobe illustrator files, please use Adobe illustrator.
 
 ## Replicating Statistical Results
-Please run `RQ2_RQ3_Stats_Script.Rmd` 
+Please run `RQ2_RQ3_Stats_Script.Rmd` in Rstudio. This script will install all required dependences.
 
 ## Generating Paper figures 
 ### Figure 1 
