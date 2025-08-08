@@ -38,6 +38,22 @@ Use file `R_figures.Rmd`, and `paper_figures/figure-1.ai`
 Use file `Taxonomy.pdf`
 ### Figure 4 
 Use files in `Colab code for visualization generation/`
+### 4a 
+SHAP waterfall
+* Open `Survey code for SHAP Waterfall.ipynb` in Google colab
+* Upload `Umbrella.csv` to "Files" to make it available to the script 
+* Under runtime, select "Run all"
+* You will see figure 4a under "Generate a tutorial explanation"
+### 4b
+SHAP Force
+### 4c
+ELI5
+### 4d
+LIME
+### 4e
+CP
+### 4f
+Anchors
 ### Figure 5 
 Use file `R_figures.Rmd` and `paper_figures/figure-5.ai`
 ### Figures 6 - 7
